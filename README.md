@@ -1,7 +1,7 @@
 # School-Management-App
 This Application(School App) is for school management from both students,staffs and the system adminstarator
 
-JWT-Authorization Starter template for nodejs and mongodb
+
 ## Get started
 -clone the project by using
   **git clone <project url>**
@@ -11,7 +11,7 @@ JWT-Authorization Starter template for nodejs and mongodb
 
 ## Technologies
 1.Database(ContentProvider/Sqlite)
-2. Android Java
+2.Android Java
 
 ## Demo
 ![alt text](https://github.com/Kijacode/School-Management-App/blob/master/images/Screenshot_2020-02-07-21-57-38%20(1).png)
