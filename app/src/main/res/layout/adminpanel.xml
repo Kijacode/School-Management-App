@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <GridLayout
+
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            android:background="@drawable/back1"
+            android:orientation="horizontal"
+            android:columnCount="2"
+            android:rowCount="2"
+            android:paddingTop="40dp"
+            android:paddingLeft="30dp"
+            android:paddingBottom="20dp"
+            tools:context=".Adminpanel" >
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+
+                >
+
+                <ImageButton
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="12dp"
+                    android:src="@drawable/bag"
+                    android:autofillHints="Student"
+                    android:onClick="studentAdim"
+                    android:background="@color/colorAccent"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="STUDENTS"
+                    android:layout_marginBottom="20dp"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="30dp"
+                    android:textFontWeight="@android:integer/config_longAnimTime"
+
+                    />
+
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                >
+                <ImageButton
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/bag2"
+                    android:background="@color/colorAccent"
+                    android:onClick="staffAdim"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="STAFF"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="30dp"
+                    android:textFontWeight="@android:integer/config_longAnimTime"
+                    />
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                >
+                <ImageButton
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginBottom="20dp"
+                    android:src="@drawable/students"
+                    android:background="@color/colorAccent"
+                    android:onClick="courseAdim"
+                    />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="COURSE"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="30dp"
+                    android:textFontWeight="@android:integer/config_longAnimTime"
+                    />
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                >
+                <ImageButton
+                    android:layout_width="140dp"
+                    android:layout_height="80dp"
+                    android:background="@color/colorAccent"
+                    android:src="@drawable/students"
+                    android:onClick="analytics"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ANALYTICS"
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginBottom="20dp"
+                    android:textSize="30dp"
+                    android:textFontWeight="@android:integer/config_longAnimTime"
+                    />
+
+
+
+            </LinearLayout>
+
+        </GridLayout>
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/colorAccent"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Total Students"
+                android:textSize="30dp"
+                android:textColor="@color/colorWhite"
+                android:paddingTop="25dp"
+                android:paddingLeft="19dp"
+                android:layout_marginRight="33dp"
+                />
+            <TextView
+                android:id="@+id/tstudent"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="30"
+                android:textSize="70dp"
+                android:textColor="@color/colorWhite"
+                />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/colorAccent"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Total Staff"
+                android:textSize="30dp"
+                android:textColor="@color/colorWhite"
+                android:paddingTop="25dp"
+                android:paddingLeft="19dp"
+                android:layout_marginRight="90dp"
+                />
+            <TextView
+                android:id="@+id/stafftotal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="30"
+                android:textSize="70dp"
+                android:textColor="@color/colorWhite"
+                />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@color/colorAccent"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:id="@+id/coursetotal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Total Courses"
+                android:textSize="30dp"
+                android:textColor="@color/colorWhite"
+                android:paddingTop="25dp"
+                android:paddingLeft="19dp"
+                android:layout_marginRight="38dp"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="30"
+                android:textSize="70dp"
+                android:textColor="@color/colorWhite"
+                />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

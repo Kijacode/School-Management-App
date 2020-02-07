@@ -1,0 +1,4216 @@
+<resources>
+    <string name="app_name">ShuleApp</string>
+    <string name="title_activity_studentadm">studentadm</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+
+    <string-array name="regions">
+        <item>Dar es Salaam</item>
+        <item>Arusha</item>
+        <item>Dodoma</item>
+        <item>Geita</item>
+        <item>Iringa</item>
+        <item>Kagera</item>
+        <item>Katavi</item>
+        <item>Kigoma</item>
+        <item>Kilimanjaro</item>
+        <item>Pemba Kusini</item>
+        <item>Unguja Kusini</item>
+        <item>Lindi</item>
+        <item>Manyara</item>
+        <item>Mara</item>
+        <item>Mbeya</item>
+        <item>Morogoro</item>
+        <item>Mtwara</item>
+        <item>Mwanza</item>
+        <item>Njombe</item>
+        <item>Pwani</item>
+        <item>Unguja Mjini Magharibi</item>
+        <item>Rukwa</item>
+        <item>Ruvuma</item>
+        <item>Shinyanga</item>
+        <item>Simiyu</item>
+        <item>Singida</item>
+        <item>Songwe</item>
+        <item>Tabora</item>
+        <item>Tanga</item>
+        <item>Unguja Kaskazini</item>
+        <item>Pemba Kaskazini</item>
+    </string-array>
+
+    // Spinner2 Drop down elements
+    <string-array name="dar_districts">
+        <item>Ilala</item>
+        <item>Kinondoni</item>
+        <item>Temeke</item>
+        <item>Kigamboni</item>
+        <item>Ubungo</item>
+    </string-array>
+
+    <string-array name="arusha_districts">
+        <item>Meru</item>
+        <item>Arusha</item>
+        <item>Karatu</item>
+        <item>Longido</item>
+        <item>Monduli</item>
+        <item>Ngorongoro</item>
+    </string-array>
+
+    <string-array name="dom_districts">
+        <item>Bahi</item>
+        <item>Chamwino</item>
+        <item>Chemba</item>
+        <item>Dodoma</item>
+        <item>Kondoa</item>
+        <item>Kongwa</item>
+        <item>Mpwapwa</item>
+    </string-array>
+
+    <string-array name="geita_districts">
+        <item>Bukombe</item>
+        <item>Chato</item>
+        <item>Geita</item>
+        <item>Mbogwe</item>
+        <item>Nyang\'hwale</item>
+    </string-array>
+
+    <string-array name="iringa_districts">
+        <item>Iringa</item>
+        <item>Kilolo</item>
+        <item>Mafinga</item>
+        <item>Mufindi</item>
+    </string-array>
+
+    <string-array name="kagera_districts">
+        <item>Biharamulo</item>
+        <item>Bukoba</item>
+        <item>Karagwe</item>
+        <item>Kyerwa</item>
+        <item>Missenyi</item>
+        <item>Muleba</item>
+        <item>Ngara</item>
+    </string-array>
+
+    <string-array name="katavi_districts">
+        <item>Mlele</item>
+        <item>Mpanda</item>
+        <item>Mpanda Urban</item>
+    </string-array>
+
+    <string-array name="kigoma_districts">
+        <item>Buhigwe</item>
+        <item>Kakonko</item>
+        <item>Kasulu</item>
+        <item>Kibondo</item>
+        <item>Kigoma</item>
+        <item>Kigoma-Ujiji</item>
+        <item>Uvinza</item>
+    </string-array>
+
+    <string-array name="kilimanjaro_districts">
+        <item>Hai</item>
+        <item>Moshi</item>
+        <item>Moshi Urban</item>
+        <item>Mwanga</item>
+        <item>Rombo</item>
+        <item>Same</item>
+        <item>Siha</item>
+    </string-array>
+
+    <string-array name="pemba_kusini_districts">
+        <item>Chake Chake</item>
+        <item>Mkoani</item>
+    </string-array>
+
+    <string-array name="unguja_kusini_districts">
+        <item>Kati</item>
+        <item>Kusini</item>
+    </string-array>
+
+    <string-array name="lindi_districts">
+        <item>Kilwa</item>
+        <item>Lindi</item>
+        <item>Lindi Urban</item>
+        <item>Liwale</item>
+        <item>Nachingwea</item>
+        <item>Ruangwa</item>
+    </string-array>
+
+    <string-array name="manyara_districts">
+        <item>Babati</item>
+        <item>Babati Urban</item>
+        <item>Hanang</item>
+        <item>Kiteto</item>
+        <item>Mbulu</item>
+        <item>Simanjiro</item>
+    </string-array>
+
+    <string-array name="mara_districts">
+        <item>Bunda</item>
+        <item>Butiama</item>
+        <item>Musoma</item>
+        <item>Musoma Municipal</item>
+        <item>Rorya</item>
+        <item>Serengeti</item>
+        <item>Tarime</item>
+    </string-array>
+
+    <string-array name="mbeya_districts">
+        <item>Chunya</item>
+        <item>Kyela</item>
+        <item>Mbarali</item>
+        <item>Mbeya</item>
+        <item>Mbeya Urban</item>
+        <item>Rungwe</item>
+    </string-array>
+
+    <string-array name="moro_districts">
+        <item>Gairo</item>
+        <item>Kilombero</item>
+        <item>Kilosa</item>
+        <item>Morogoro</item>
+        <item>Morogoro Urban</item>
+        <item>Mvomero</item>
+        <item>Ulanga</item>
+    </string-array>
+
+    <string-array name="mtwara_districts">
+        <item>Masasi</item>
+        <item>Mtwara</item>
+        <item>Mtwara Urban</item>
+        <item>Nanyumbu</item>
+        <item>Newala</item>
+        <item>Tandahimba</item>
+    </string-array>
+
+    <string-array name="mwanza_districts">
+        <item>Ilemela</item>
+        <item>Kwimba</item>
+        <item>Magu</item>
+        <item>Misungwi</item>
+        <item>Nyamagana</item>
+        <item>Sengerema</item>
+        <item>Ukerewe</item>
+    </string-array>
+
+    <string-array name="njombe_districts">
+        <item>Ludewa</item>
+        <item>Makambako</item>
+        <item>Makete</item>
+        <item>Njombe</item>
+        <item>Njombe Urban</item>
+        <item>Wanging\'ombe</item>
+    </string-array>
+
+    <string-array name="pwani_districts">
+        <item>Bagamoyo</item>
+        <item>Kibaha</item>
+        <item>Kibaha Urban</item>
+        <item>Kisarawe</item>
+        <item>Mafia</item>
+        <item>Mkuranga</item>
+        <item>Rufiji</item>
+    </string-array>
+
+    <string-array name="unguja_mjini_magharibi_districts">
+        <item>Magharibi</item>
+        <item>Mjini</item>
+    </string-array>
+
+    <string-array name="rukwa_districts">
+        <item>Kalambo</item>
+        <item>Nkasi</item>
+        <item>Sumbawanga</item>
+        <item>Sumbawanga Urban</item>
+    </string-array>
+
+    <string-array name="ruvuma_districts">
+        <item>Mbinga</item>
+        <item>Namtumbo</item>
+        <item>Nyasa</item>
+        <item>Songea</item>
+        <item>Songea Urban</item>
+        <item>Tunduma</item>
+    </string-array>
+
+    <string-array name="shinyanga_districts">
+        <item>Kahama</item>
+        <item>Kahama Township Authority</item>
+        <item>Kishapu</item>
+        <item>Shinyanga</item>
+        <item>Shinyanga Urban</item>
+    </string-array>
+
+    <string-array name="simiyu_districts">
+        <item>Bariadi</item>
+        <item>Busega</item>
+        <item>Itilima</item>
+        <item>Maswa</item>
+        <item>Meatu</item>
+    </string-array>
+
+    <string-array name="singida_districts">
+        <item>Ikungi</item>
+        <item>Iramba</item>
+        <item>Manyoni</item>
+        <item>Mkalama</item>
+        <item>Singida</item>
+        <item>Singida Urban</item>
+    </string-array>
+
+    <string-array name="songwe_districts">
+        <item>Ileje</item>
+        <item>Mbozi</item>
+        <item>Momba</item>
+    </string-array>
+
+    <string-array name="tabora_districts">
+        <item>Igunga</item>
+        <item>Kaliua</item>
+        <item>Nzega</item>
+        <item>Sikonge</item>
+        <item>Tabora Urban</item>
+        <item>Urambo</item>
+        <item>Uyui</item>
+    </string-array>
+
+    <string-array name="tanga_districts">
+        <item>Handeni</item>
+        <item>Handeni Township Authority</item>
+        <item>Kilindi</item>
+        <item>Korogwe</item>
+        <item>Korogwe Township Authority</item>
+        <item>Lushoto</item>
+        <item>Mkinga</item>
+        <item>Muheza</item>
+        <item>Pangani</item>
+        <item>Tanga</item>
+    </string-array>
+
+    <string-array name="unguja_kaskazini_districts">
+        <item>Kaskazini A</item>
+        <item>Kaskazini B</item>
+    </string-array>
+
+    <string-array name="pemba_kaskazini_districts">
+        <item>Micheweni</item>
+        <item>Wete</item>
+    </string-array>
+
+    // Spinner2 Drop down elements
+
+    // Dar es Salaam
+    <string-array name="ilala_wards">
+        <item>Buguruni</item>
+        <item>Chanika</item>
+        <item>Gerezani</item>
+        <item>Ilala</item>
+        <item>Jangwani</item>
+        <item>Kariakoo</item>
+        <item>Kinyerezi</item>
+        <item>Kipawa</item>
+        <item>Kitunda</item>
+        <item>Kisutu</item>
+        <item>Kivukoni</item>
+        <item>Kiwalani</item>
+        <item>Mchafukoge</item>
+        <item>Mchikichini</item>
+        <item>Msongola</item>
+        <item>Pugu</item>
+        <item>Segerea</item>
+        <item>Tabata</item>
+        <item>Ukonga</item>
+        <item>Upanga East</item>
+        <item>Upanga West</item>
+        <item>Vingunguti</item>
+    </string-array>
+
+    <string-array name="kinondoni_wards">
+        <item>Bunju</item>
+        <item>Goba</item>
+        <item>Hananasif</item>
+        <item>Kawe</item>
+        <item>Kibamba</item>
+        <item>Kigogo</item>
+        <item>Kijitonyama</item>
+        <item>Kimara</item>
+        <item>Kinondoni</item>
+        <item>Kunduchi</item>
+        <item>Mabibo</item>
+        <item>Magomeni</item>
+        <item>Makuburi</item>
+        <item>Makumbusho</item>
+        <item>Makurumula</item>
+        <item>Manzese</item>
+        <item>Mbezi</item>
+        <item>Mburahati</item>
+        <item>Mbweni</item>
+        <item>Mikocheni</item>
+        <item>Msasani</item>
+        <item>Mwananyamala</item>
+        <item>Mzimuni</item>
+        <item>Ndugumbi</item>
+        <item>Sinza</item>
+        <item>Tandale</item>
+    </string-array>
+
+    <string-array name="temeke_wards">
+        <item>Azimio</item>
+        <item>Chamazi</item>
+        <item>Chang\'ombe</item>
+        <item>Charambe</item>
+        <item>Keko</item>
+        <item>Kigamboni</item>
+        <item>Kibada</item>
+        <item>Kimbiji</item>
+        <item>Kisarawe II</item>
+        <item>Kurasini</item>
+        <item>Makangarawe</item>
+        <item>Mbagala</item>
+        <item>Mbagala Kuu</item>
+        <item>Miburani</item>
+        <item>Mjimwema</item>
+        <item>Mtoni</item>
+        <item>Pemba Mnazi</item>
+        <item>Sandali</item>
+        <item>Somangira</item>
+        <item>Tandika</item>
+        <item>Temeke</item>
+        <item>Toangoma</item>
+        <item>Vijibweni</item>
+        <item>Yombo Vituka</item>
+    </string-array>
+
+    <string-array name="kigamboni_wards">
+        <item>Mbagala</item>
+        <item>Kigamboni</item>
+    </string-array>
+
+    <string-array name="ubungo_wards">
+        <item>Ubungo</item>
+        <item>Manzese</item>
+        <item>Kibamba</item>
+        <item>Goba</item>
+        <item>Kwembe</item>
+        <item>Mabibo</item>
+        <item>Makurumla</item>
+        <item>Mburahati</item>
+        <item>Msigani</item>
+        <item>Makuburi</item>
+        <item>Mbezi</item>
+        <item>Kata ya Sinza</item>
+        <item>Saranga</item>
+    </string-array>
+
+    // Arusha
+    <string-array name="meru_wards">
+        <item>Akheri</item>
+        <item>Kikatiti</item>
+        <item>Kikwe</item>
+        <item>King\'ori</item>
+        <item>Leguruki</item>
+        <item>Maji ya Chai</item>
+        <item>Makiba</item>
+        <item>Maroroni</item>
+        <item>Mbuguni</item>
+        <item>Ngarenanyuki</item>
+        <item>Nkoanrua</item>
+        <item>Nkoaranga</item>
+        <item>Nkoarisambu</item>
+        <item>Poli</item>
+        <item>Seela Sing\'isi</item>
+    </string-array>
+
+    <string-array name="arusha_wards">
+        <item>Baraa</item>
+        <item>Daraja Mbili</item>
+        <item>Elerai</item>
+        <item>Engosheraton</item>
+        <item>Engutoto</item>
+        <item>Kaloleni</item>
+        <item>Kati</item>
+        <item>Kimandolu</item>
+        <item>Lemara</item>
+        <item>Levolosi</item>
+        <item>Moshono</item>
+        <item>Ngarenaro</item>
+        <item>Oloirien</item>
+        <item>Sekei</item>
+        <item>Sokon I</item>
+        <item>Sombetini</item>
+        <item>Terrat</item>
+        <item>Themi</item>
+        <item>Unga L.T.D.</item>
+    </string-array>
+
+    <string-array name="karatu_wards">
+        <item>Baray</item>
+        <item>Buger</item>
+        <item>Daa</item>
+        <item>Endabash</item>
+        <item>Endamaghang</item>
+        <item>Endamarariek</item>
+        <item>Ganako</item>
+        <item>Kansay</item>
+        <item>Karatu</item>
+        <item>Mang\'ola</item>
+        <item>Mbulumbulu</item>
+        <item>Oldeani</item>
+        <item>Qurus</item>
+        <item>Rhotia</item>
+    </string-array>
+
+    <string-array name="longido_wards">
+        <item>Elang\'atadapash</item>
+        <item>Engarenaibor</item>
+        <item>Engikaret</item>
+        <item>Gelai Lumbwa</item>
+        <item>Gelai Meirugoi</item>
+        <item>Iloirienito</item>
+        <item>Kamwanga</item>
+        <item>Kitumbeine</item>
+        <item>Kimokouwa</item>
+        <item>Longido</item>
+        <item>Matale</item>
+        <item>Mundarara</item>
+        <item>Namanga</item>
+        <item>Noondoto</item>
+        <item>Ol-molog</item>
+        <item>Orbomba</item>
+        <item>Sinya</item>
+        <item>Tingatinga</item>
+    </string-array>
+
+    <string-array name="monduli_wards">
+        <item>Engaruka</item>
+        <item>Engutoto</item>
+        <item>Esilalei</item>
+        <item>Lepurko</item>
+        <item>Lolkisale</item>
+        <item>Majengo</item>
+        <item>Makuyuni</item>
+        <item>Meserani</item>
+        <item>Moita</item>
+        <item>Monduli Juu</item>
+        <item>Monduli Mjini</item>
+        <item>Mswakini</item>
+        <item>Mto wa Mbu</item>
+        <item>Selela</item>
+        <item>Sepeko</item>
+    </string-array>
+
+    <string-array name="ngorongoro_wards">
+        <item>Alailelai</item>
+        <item>Arash</item>
+        <item>Digodigo</item>
+        <item>Enduleni</item>
+        <item>Engusero Sambu</item>
+        <item>Kakesio</item>
+        <item>Maalon</item>
+        <item>Malambo</item>
+        <item>Nainokanoka</item>
+        <item>Nayobi</item>
+        <item>Ngorongoro</item>
+        <item>Olbalbal</item>
+        <item>Oldonyo-Sambu</item>
+        <item>Oloipiri</item>
+        <item>Oloirien</item>
+        <item>Ololosokwan</item>
+        <item>Orgosorok</item>
+        <item>Pinyinyi</item>
+        <item>Sale</item>
+        <item>Samunge</item>
+        <item>Soit Sambu</item>
+    </string-array>
+
+    // Dodoma
+    <string-array name="bahi_wards">
+        <item>Babayu</item>
+        <item>Bahi</item>
+        <item>Chali</item>
+        <item>Chibelela</item>
+        <item>Chikola</item>
+        <item>Chifutuka</item>
+        <item>Chipanga</item>
+        <item>Ibihwa</item>
+        <item>Ibugule</item>
+        <item>Ilindi</item>
+        <item>Kigwe</item>
+        <item>Lamaiti</item>
+        <item>Makanda</item>
+        <item>Mpalanga</item>
+        <item>Mpamantwa</item>
+        <item>Mpinga</item>
+        <item>Msisi</item>
+        <item>Mtitaa</item>
+        <item>Mundemu</item>
+        <item>Mwitikira</item>
+        <item>Nondwa</item>
+        <item>Zanka</item>
+    </string-array>
+
+    <string-array name="chamwino_wards">
+        <item>Buigiri</item>
+        <item>Chiboli</item>
+        <item>Chilonwa</item>
+        <item>Chinugulu</item>
+        <item>Dabalo</item>
+        <item>Fufu</item>
+        <item>Handali</item>
+        <item>Haneti</item>
+        <item>Huzi</item>
+        <item>Idifu</item>
+        <item>Igandu</item>
+        <item>Ikowa</item>
+        <item>Iringamvumi</item>
+        <item>Itiso</item>
+        <item>Loje</item>
+        <item>Majeleko</item>
+        <item>Makang\'wa</item>
+        <item>Manchali</item>
+        <item>Manda</item>
+        <item>Manzase</item>
+        <item>Membe</item>
+        <item>Mlowa Bwawani</item>
+        <item>Mpwayungu</item>
+        <item>Msamalo</item>
+        <item>Msanga</item>
+        <item>Muungano</item>
+        <item>Mvumi Makulu</item>
+        <item>Mvumi Mission</item>
+        <item>Nghambaku</item>
+        <item>Nhinhi</item>
+        <item>Segala</item>
+        <item>Zajilwa</item>
+    </string-array>
+
+    <string-array name="dodoma_wards">
+        <item>Chahwa</item>
+        <item>Chamwino</item>
+        <item>Chang\'ombe Dodoma</item>
+        <item>Chigongwe</item>
+        <item>Chihanga</item>
+        <item>Dodoma Makulu</item>
+        <item>Hazina</item>
+        <item>Hombolo</item>
+        <item>Hombolo Bwawani</item>
+        <item>Ihumwa</item>
+        <item>Ipagala</item>
+        <item>Ipala</item>
+        <item>Iyumbu</item>
+        <item>Kikombo</item>
+        <item>Kikuyu Kaskazini</item>
+        <item>Kikuyu Kusini</item>
+        <item>Kilimani</item>
+        <item>Kiwanja cha ndege</item>
+        <item>Kizota</item>
+        <item>Madukani</item>
+        <item>Majengo</item>
+        <item>Makole</item>
+        <item>Makutupora</item>
+        <item>Matumbulu</item>
+        <item>Mbabala</item>
+        <item>Mbalawala</item>
+        <item>Miyuji</item>
+        <item>Mkonze</item>
+        <item>Mnadani</item>
+        <item>Mpunguzi</item>
+        <item>Msalato</item>
+        <item>Mtumba</item>
+        <item>Nala</item>
+        <item>Ngh\'ongh\'onha</item>
+        <item>Nkuhungu</item>
+        <item>Ntyuka</item>
+        <item>Nzuguni</item>
+        <item>Tambukareli</item>
+        <item>Uhuru</item>
+        <item>Viwandani</item>
+        <item>Zuzu</item>
+    </string-array>
+
+    <string-array name="kondoa_wards">
+        <item>Bereko</item>
+        <item>Bolisa</item>
+        <item>Bumbuta</item>
+        <item>Busi</item>
+        <item>Changaa</item>
+        <item>Chemchem</item>
+        <item>Haubi</item>
+        <item>Hondo mairo</item>
+        <item>Itaswi</item>
+        <item>Itololo</item>
+        <item>Kalamba</item>
+        <item>Kikilo</item>
+        <item>Kikore</item>
+        <item>Kilimani</item>
+        <item>Kingale</item>
+        <item>Kinyasi</item>
+        <item>Kisese</item>
+        <item>Kolo</item>
+        <item>Kondoa mjini</item>
+        <item>Kwadelo</item>
+        <item>Masange</item>
+        <item>Mnenia</item>
+        <item>Pahi</item>
+        <item>Salanka</item>
+        <item>Serya</item>
+        <item>Soera</item>
+        <item>Suruke</item>
+        <item>Thawi</item>
+    </string-array>
+
+    <string-array name="kongwa_wards">
+        <item>Chamkoroma</item>
+        <item>Chitego</item>
+        <item>Chiwe</item>
+        <item>Hogoro</item>
+        <item>Iduo</item>
+        <item>Kibaigwa</item>
+        <item>Kongwa</item>
+        <item>Lenjulu</item>
+        <item>Makawa</item>
+        <item>Matongoro</item>
+        <item>Mkoka</item>
+        <item>Mlali</item>
+        <item>Mtanana</item>
+        <item>Nghumbi</item>
+        <item>Ngomai</item>
+        <item>Njoge</item>
+        <item>Pandambili</item>
+        <item>Sagara</item>
+        <item>Sejeli</item>
+        <item>Songambele</item>
+        <item>Ugogoni</item>
+        <item>Zoissa</item>
+    </string-array>
+
+    <string-array name="mpwapwa_wards">
+        <item>Berege</item>
+        <item>Chipogoro</item>
+        <item>Chitemo</item>
+        <item>Chunyu</item>
+        <item>Galigali</item>
+        <item>Godegode</item>
+        <item>Gulwe</item>
+        <item>Ipera</item>
+        <item>Iwondo</item>
+        <item>Kibakwe</item>
+        <item>Kimagai</item>
+        <item>Kingiti</item>
+        <item>Lufu</item>
+        <item>Luhundwa</item>
+        <item>Lumuma</item>
+        <item>Lupeta</item>
+        <item>Malolo</item>
+        <item>Massa</item>
+        <item>Matomondo</item>
+        <item>Mazae</item>
+        <item>Mbuga</item>
+        <item>Mima</item>
+        <item>Mlunduzi</item>
+        <item>Mpwapwa</item>
+    </string-array>
+
+    <string-array name="chemba_wards">
+        <item>Chandama</item>
+        <item>Chemba</item>
+        <item>Churuku</item>
+        <item>Dalai</item>
+        <item>Farkwa</item>
+        <item>Goima</item>
+        <item>Gwandi</item>
+        <item>Jangalo</item>
+        <item>Kimaha</item>
+        <item>Kwamtoro</item>
+        <item>Lalta</item>
+        <item>Makorongo</item>
+        <item>Mondo</item>
+        <item>Mpendo</item>
+        <item>Mrijo</item>
+        <item>Msaada</item>
+        <item>Ovada</item>
+        <item>Paranga</item>
+        <item>Sanzawa</item>
+        <item>Songoro</item>
+    </string-array>
+
+    // Geita
+    <string-array name="bukombe_wards">
+        <item>Bugelenga</item>
+        <item>Bukombe</item>
+        <item>Bulega</item>
+        <item>Busonzo</item>
+        <item>Butinzya</item>
+        <item>Igulwa</item>
+        <item>Iyogelo</item>
+        <item>Katente</item>
+        <item>Lyambamgongo</item>
+        <item>Namonge</item>
+        <item>Ng\'anzo</item>
+        <item>Runzewe Mashariki</item>
+        <item>Runzewe Magharibi</item>
+        <item>Ushirombo</item>
+        <item>Uyovu</item>
+    </string-array>
+
+    <string-array name="chato_wards">
+        <item>Bukome</item>
+        <item>Buseresere</item>
+        <item>Butengorumasa</item>
+        <item>Buziku</item>
+        <item>Bwanga</item>
+        <item>Bwera</item>
+        <item>Bwina</item>
+        <item>Bwongera</item>
+        <item>Chato</item>
+        <item>Minkoto</item>
+        <item>Ichwankima</item>
+        <item>Ilemela</item>
+        <item>Ilyamchele</item>
+        <item>Iparamasa</item>
+        <item>Kachwamba</item>
+        <item>Kasenga</item>
+        <item>Katende</item>
+        <item>Kigongo</item>
+        <item>Makurugusi</item>
+        <item>Muganza</item>
+        <item>Muungano</item>
+        <item>Nyamirembe</item>
+        <item>Nyarutembo</item>
+    </string-array>
+
+    <string-array name="geita_wards">
+        <item>Bugalama</item>
+        <item>Bugulula</item>
+        <item>Bujula</item>
+        <item>Bukoli</item>
+        <item>Bukondo</item>
+        <item>Bulela</item>
+        <item>Bung\'wangoko</item>
+        <item>Busanda</item>
+        <item>Butobela</item>
+        <item>Chigunga</item>
+        <item>Ihanamilo</item>
+        <item>Isulwabutundwe</item>
+        <item>Kagu</item>
+        <item>Kakubilo</item>
+        <item>Kalangalala</item>
+        <item>Kamena</item>
+        <item>Kamhanga</item>
+        <item>Kasamwa</item>
+        <item>Kaseme</item>
+        <item>Katoma</item>
+        <item>Katoro</item>
+        <item>Lubanga</item>
+        <item>Lwamgasa</item>
+        <item>Lwezera</item>
+        <item>Mtakuja</item>
+        <item>Nkome</item>
+        <item>Nyachiluluma</item>
+        <item>Nyakagomba</item>
+        <item>Nyakamwaga</item>
+        <item>Nyamalimbe</item>
+        <item>Nyamigota</item>
+        <item>Nyanguku</item>
+        <item>Nyarugusu</item>
+        <item>Nzera</item>
+        <item>Senga</item>
+    </string-array>
+
+    <string-array name="mbogwe_wards">
+        <item>Bukandwe</item>
+        <item>Ikobe</item>
+        <item>Ikunguigazi</item>
+        <item>Ilolangulu</item>
+        <item>Iponya</item>
+        <item>Isebya</item>
+        <item>Lugunga</item>
+        <item>Lulembela</item>
+        <item>Masumbwe</item>
+        <item>Mbogwe</item>
+        <item>Mgemo</item>
+        <item>Nanda</item>
+        <item>Ng\'homolwa</item>
+        <item>Nyakafulu</item>
+        <item>Nyasato</item>
+        <item>Ushirika</item>
+    </string-array>
+
+    <string-array name="nyanghwale_wards">
+        <item>Bukwimba</item>
+        <item>Busolwa</item>
+        <item>Izunya</item>
+        <item>Kafita</item>
+        <item>Kakura</item>
+        <item>Kharumwa</item>
+        <item>Mwingiro</item>
+        <item>Nyabulanda</item>
+        <item>Nyang\'hwale</item>
+        <item>Nyijundu</item>
+        <item>Nyugwa</item>
+        <item>Shabaka</item>
+    </string-array>
+
+    // Iringa
+    <string-array name="iringa_wards">
+        <item>Gangilonga</item>
+        <item>Igumbilo</item>
+        <item>Ipogolo</item>
+        <item>Ilala</item>
+        <item>Isakalilo</item>
+        <item>Kihesa</item>
+        <item>Kitanzini</item>
+        <item>Kitwiru</item>
+        <item>Kwakilosa</item>
+        <item>Makorongoni</item>
+        <item>Mivinjeni</item>
+        <item>Mkwawa</item>
+        <item>Mlandege</item>
+        <item>Mshindo</item>
+        <item>Mtwivila</item>
+        <item>Mwangata</item>
+        <item>Nduli</item>
+        <item>Ruaha</item>
+    </string-array>
+
+    <string-array name="kilolo_wards">
+        <item>Bomalang\'ombe</item>
+        <item>Dabaga</item>
+        <item>Ibumu</item>
+        <item>Idete</item>
+        <item>Ihimbo</item>
+        <item>Ilula</item>
+        <item>Image</item>
+        <item>Irole</item>
+        <item>Kising\'a</item>
+        <item>Kimala</item>
+        <item>Kitowo</item>
+        <item>Lugalo</item>
+        <item>Mahenge</item>
+        <item>Masisiwe</item>
+        <item>Mawambala</item>
+        <item>Mlafu</item>
+        <item>Mtitu</item>
+        <item>Ng\'ang\'ange</item>
+        <item>Ng\'uruhe</item>
+        <item>Nyalumbu</item>
+        <item>Nyanzwa</item>
+        <item>Ruaha Mbuyuni</item>
+        <item>Udekwa</item>
+        <item>Uhambingeto</item>
+        <item>Ukumbi</item>
+        <item>Ukwega</item>
+        <item>Winome</item>
+    </string-array>
+
+    <string-array name="mafinga_wards">
+        <item>Isalavanu</item>
+        <item>Sao Hill</item>
+    </string-array>
+
+    <string-array name="mufindi_wards">
+        <item>Bumilayinga</item>
+        <item>Ifunda</item>
+        <item>Ifwagi</item>
+        <item>Igombavanu</item>
+        <item>Igowole</item>
+        <item>Ihalimba</item>
+        <item>Ihanu</item>
+        <item>Ihowanza</item>
+        <item>Ikweha</item>
+        <item>Isalavanu</item>
+        <item>Itandula</item>
+        <item>Kasanga</item>
+        <item>Kibengu</item>
+        <item>Kiyowela</item>
+        <item>Luhunga</item>
+        <item>Mafinga</item>
+        <item>Makungu</item>
+        <item>Malangali</item>
+        <item>Mapanda</item>
+        <item>Mbalamaziwa</item>
+        <item>Mdabulo</item>
+        <item>Mninga</item>
+        <item>Mpanga TAZARA</item>
+        <item>Mtambula</item>
+        <item>Mtwango</item>
+        <item>Nyololo</item>
+        <item>Rungemba</item>
+        <item>Sadani</item>
+    </string-array>
+
+    // Kagera
+    <string-array name="biharamulo_wards">
+        <item>Biharamulo Mjini</item>
+        <item>Bisibo</item>
+        <item>Kabindi</item>
+        <item>Kalenge</item>
+        <item>Kaniha</item>
+        <item>Lusahunga</item>
+        <item>Nemba</item>
+        <item>Nyabusozi</item>
+        <item>Nyakahura</item>
+        <item>Nyamahanga</item>
+        <item>Nyamigogo</item>
+        <item>Nyantakara</item>
+        <item>Nyarubungo</item>
+        <item>Runazi</item>
+        <item>Ruziba</item>
+    </string-array>
+
+    <string-array name="bukoba_wards">
+        <item>Buhendangabo</item>
+        <item>Bujugo</item>
+        <item>Butelankuzi</item>
+        <item>Butulage</item>
+        <item>Ibwera</item>
+        <item>Izimbya</item>
+        <item>Kaagya</item>
+        <item>Kaibanja</item>
+        <item>Kanyangereko</item>
+        <item>Karabagaine</item>
+        <item>Kasharu</item>
+        <item>Katerero</item>
+        <item>Katoma</item>
+        <item>Katoro</item>
+        <item>Kemondo</item>
+        <item>Kibirizi</item>
+        <item>Kikomero</item>
+        <item>Kishanje</item>
+        <item>Kishogo</item>
+        <item>Kyamulaile</item>
+        <item>Maruku</item>
+        <item>Mikoni</item>
+        <item>Mugajwale</item>
+        <item>Nyakato</item>
+        <item>Nyakibimbili</item>
+        <item>Rubafu</item>
+        <item>Rubale</item>
+        <item>Ruhunga</item>
+        <item>Rukoma</item>
+        <item>Bakoba</item>
+        <item>Bilele</item>
+        <item>Buhemba</item>
+        <item>Hamugembe</item>
+        <item>Ijuganyondo</item>
+        <item>Kagondo</item>
+        <item>Kahororo</item>
+        <item>Kashai</item>
+        <item>Kibeta</item>
+        <item>Kitendaguroward</item>
+        <item>Miembeni</item>
+        <item>Nshambya</item>
+        <item>Nyanga</item>
+        <item>Rwamishenye</item>
+    </string-array>
+
+    <string-array name="karagwe_wards">
+        <item>Bugene</item>
+        <item>Bugomora</item>
+        <item>Bweranyange</item>
+        <item>Igurwa</item>
+        <item>Ihanda</item>
+        <item>Ihembe</item>
+        <item>Isingiro</item>
+        <item>Kaisho</item>
+        <item>Kamuli</item>
+        <item>Kanoni</item>
+        <item>Kayanga</item>
+        <item>Kibingo</item>
+        <item>Kibondo</item>
+        <item>Kihanga</item>
+        <item>Kimuli</item>
+        <item>Kiruruma</item>
+        <item>Kituntu</item>
+        <item>Kyerwa</item>
+        <item>Mabira</item>
+        <item>Murongo</item>
+        <item>Ndama</item>
+        <item>Nkwenda</item>
+        <item>Nyabiyonza</item>
+        <item>Nyaishozi</item>
+        <item>Nyakahanga</item>
+        <item>Nyakakika</item>
+        <item>Nyakabanga</item>
+        <item>Achapa</item>
+        <item>Chabuhora</item>
+        <item>Nyakasimbi</item>
+        <item>Rugu</item>
+        <item>Rwabwere</item>
+    </string-array>
+
+    <string-array name="kyerwa_wards">
+        <item>Bugomora</item>
+        <item>Businde</item>
+        <item>Isingiro</item>
+        <item>Kaisho</item>
+        <item>Kamuli</item>
+        <item>Kibale</item>
+        <item>Kibingo</item>
+        <item>Kikukuru</item>
+        <item>Kimuli</item>
+        <item>Kyerwa</item>
+        <item>Mabira</item>
+        <item>Murongo</item>
+        <item>Nkwenda</item>
+        <item>Nyakatuntu</item>
+        <item>Rukuraijo</item>
+        <item>Rutunguru</item>
+        <item>Rwabwere</item>
+        <item>Songambele</item>
+    </string-array>
+
+    <string-array name="missenyi_wards">
+        <item>Bugandika</item>
+        <item>Bugorora</item>
+        <item>Buyango</item>
+        <item>Bwanjai</item>
+        <item>Gera</item>
+        <item>Ishozi</item>
+        <item>Ishunju</item>
+        <item>Kakunyu</item>
+        <item>Kanyigo</item>
+        <item>Kashenye</item>
+        <item>Kassambya</item>
+        <item>Kilimilile</item>
+        <item>Kitobo</item>
+        <item>Kyaka</item>
+        <item>Mabale</item>
+        <item>Minziro</item>
+        <item>Mushasha</item>
+        <item>Mutukula</item>
+        <item>Nsunga</item>
+        <item>Ruzinga</item>
+    </string-array>
+
+    <string-array name="muleba_wards">
+        <item>Bisheke</item>
+        <item>Biirabo</item>
+        <item>Buganguzi</item>
+        <item>Bulyakashaju</item>
+        <item>Bumbile</item>
+        <item>Burungura</item>
+        <item>Goziba</item>
+        <item>Ibuga</item>
+        <item>Ijumbi</item>
+        <item>Ikondo</item>
+        <item>Izigo</item>
+        <item>Kabirizi</item>
+        <item>Kagoma</item>
+        <item>Kamachumu</item>
+        <item>Karambi</item>
+        <item>Kasharunga</item>
+        <item>Kashasha</item>
+        <item>Kibanga</item>
+        <item>Kimwani</item>
+        <item>Kishanda</item>
+        <item>Kyebitembe</item>
+        <item>Magata Karutanga</item>
+        <item>Mazinga</item>
+        <item>Mubunda</item>
+        <item>Muhutwe</item>
+        <item>Muleba</item>
+        <item>Muyondwe</item>
+        <item>Ngenge</item>
+        <item>Nshamba</item>
+        <item>Ruhanga</item>
+        <item>Rushwa</item>
+    </string-array>
+
+    <string-array name="ngara_wards">
+        <item>Bukiriro</item>
+        <item>Bugarama</item>
+        <item>Kabanga</item>
+        <item>Kanazi</item>
+        <item>Kibimba</item>
+        <item>Kirushya</item>
+        <item>Keza</item>
+        <item>Mabawe</item>
+        <item>Muganza</item>
+        <item>Mugoma</item>
+        <item>Murusagamba</item>
+        <item>Ngara Mjini</item>
+        <item>Ntobeye</item>
+        <item>Nyakisasa</item>
+        <item>Nyamiyaga</item>
+        <item>Rulenge</item>
+        <item>Rusumo</item>
+        <item>Mbuba</item>
+    </string-array>
+
+    // Katavi
+    <string-array name="mlele_wards">
+        <item>Utende</item>
+        <item>Ilela</item>
+        <item>Inyonga</item>
+        <item>Ilunde</item>
+        <item>Kamsisi</item>
+        <item>Itenka</item>
+        <item>Kapalala</item>
+        <item>Kasansa</item>
+        <item>Kasokola</item>
+        <item>Kibaoni</item>
+        <item>Litapunga</item>
+        <item>Machimboni</item>
+        <item>Maganda</item>
+        <item>Majimoto</item>
+        <item>Mamba</item>
+        <item>Mbede</item>
+        <item>Mtapenda</item>
+        <item>Mwamapuli</item>
+        <item>Nsenkwa</item>
+        <item>Nsimbo</item>
+        <item>Sitalike</item>
+        <item>Ugala</item>
+        <item>Urwira</item>
+        <item>Usevya</item>
+    </string-array>
+
+    <string-array name="mpanda_wards">
+        <item>Ikola</item>
+        <item>Kabungu</item>
+        <item>Kapalamsenga</item>
+        <item>Karema</item>
+        <item>Mishamo</item>
+        <item>Mpanda Ndogo</item>
+        <item>Mwese</item>
+        <item>Sibwesa</item>
+    </string-array>
+
+    <string-array name="mpanda_urban_wards">
+        <item>Ilembo</item>
+        <item>Kakese</item>
+        <item>Kashaulili</item>
+        <item>Kawajense</item>
+        <item>Makanyagio</item>
+        <item>Misunkumilo</item>
+        <item>Mpanda Hotel</item>
+        <item>Nsemulwa</item>
+        <item>Shanwe</item>
+    </string-array>
+
+    // Kigoma
+    <string-array name="buhigwe_wards">
+        <item>Biharu</item>
+        <item>Buhigwe</item>
+        <item>Janda</item>
+        <item>Kajana</item>
+        <item>Kibande</item>
+        <item>Kilelema</item>
+        <item>Mugera</item>
+        <item>Muhinda</item>
+        <item>Munanila</item>
+        <item>Munyegera</item>
+        <item>Munzeze</item>
+        <item>Muyama</item>
+        <item>Mwayaya</item>
+        <item>Nyamugali</item>
+        <item>Rusaba</item>
+    </string-array>
+
+    <string-array name="kakonko_wards">
+        <item>Gwamumpu</item>
+        <item>Kakonko</item>
+        <item>Kasanda</item>
+        <item>Kasunga</item>
+        <item>Katanga</item>
+        <item>Kiziguzigu</item>
+        <item>Mugunzu</item>
+        <item>Muhange</item>
+        <item>Nyabibuye</item>
+        <item>Nyamtukuza</item>
+        <item>Rugenge</item>
+    </string-array>
+
+    <string-array name="kasulu_wards">
+        <item>Asante Nyerere</item>
+        <item>Bugaga</item>
+        <item>Buhoro</item>
+        <item>Heru Shingo</item>
+        <item>Kagerankanda</item>
+        <item>Kigembe</item>
+        <item>Kitagata</item>
+        <item>Kitanga</item>
+        <item>Kurugongo</item>
+        <item>Kwaga</item>
+        <item>Muzye</item>
+        <item>Nyachenda</item>
+        <item>Nyakitonto</item>
+        <item>Nyamidaho</item>
+        <item>Rungwe Mpya</item>
+        <item>Rusesa</item>
+        <item>Shunguliba</item>
+        <item>Titye</item>
+    </string-array>
+
+    <string-array name="kibondo_wards">
+        <item>Bitare</item>
+        <item>Bunyambo</item>
+        <item>Busagara</item>
+        <item>Busunzu</item>
+        <item>Itaba</item>
+        <item>Kibondo</item>
+        <item>Kitahana</item>
+        <item>Kizazi</item>
+        <item>Kumsenga</item>
+        <item>Mabamba</item>
+        <item>Misezero</item>
+        <item>Murungu</item>
+        <item>Rugongwe</item>
+    </string-array>
+
+    <string-array name="kigoma_wards">
+        <item>Bitale</item>
+        <item>Kagongo</item>
+        <item>Kagunga</item>
+        <item>Kalinzi</item>
+        <item>Mahembe</item>
+        <item>Matendo</item>
+        <item>Mkigo</item>
+        <item>Mkongoro</item>
+        <item>Mungonya</item>
+        <item>Mwamgongo</item>
+        <item>Mwandiga</item>
+    </string-array>
+
+    <string-array name="kigoma_ujiji_wards">
+        <item>Bangwe</item>
+        <item>Buhanda</item>
+        <item>Businde</item>
+        <item>Buzebazeba</item>
+        <item>Gungu</item>
+        <item>Kagera</item>
+        <item>Kasimbu</item>
+        <item>Kasingirima</item>
+        <item>Katubuka</item>
+        <item>Kibirizi</item>
+        <item>Kigoma</item>
+        <item>Kipampa</item>
+        <item>Kitongoni</item>
+        <item>Machinjioni</item>
+        <item>Majengo</item>
+        <item>Mwanga Kaskazini</item>
+        <item>Mwanga Kusini</item>
+        <item>Rubuga</item>
+        <item>Rusimbi</item>
+    </string-array>
+
+    <string-array name="uvinza_wards">
+        <item>Buhingu</item>
+        <item>Igalula</item>
+        <item>Ilagala</item>
+        <item>Itebula</item>
+        <item>Kalya</item>
+        <item>Kandaga</item>
+        <item>Kazuramimba</item>
+        <item>Mganza</item>
+        <item>Mtego wa Noti</item>
+        <item>Nguruka</item>
+        <item>Sigunga</item>
+        <item>Simbo</item>
+        <item>Sunuka</item>
+        <item>Uvinza</item>
+    </string-array>
+
+    // Kilimanjaro
+    <string-array name="hai_wards">
+        <item>Hai Mjini</item>
+        <item>KIA</item>
+        <item>Machame Kaskazini</item>
+        <item>Machame Kusini</item>
+        <item>Machame Magharibi</item>
+        <item>Machame Mashariki</item>
+        <item>Machame Narumu</item>
+        <item>Machame Uroki</item>
+        <item>Machame Weruweru</item>
+        <item>Masama Kati</item>
+        <item>Masama Kusini</item>
+        <item>Masama Magharibi</item>
+        <item>Masama Mashariki</item>
+        <item>Masama Rundugai</item>
+    </string-array>
+
+    <string-array name="moshi_wards">
+        <item>Arusha Chini</item>
+        <item>Kahe</item>
+        <item>Kahe Mashariki</item>
+        <item>Kibosho Kati</item>
+        <item>Kibosho Magharibi</item>
+        <item>Kibosho Mashariki</item>
+        <item>Kilema Kaskazini</item>
+        <item>Kilema Kati</item>
+        <item>Kilema Kusini</item>
+        <item>Kimochi</item>
+        <item>Kindi</item>
+        <item>Kirima</item>
+        <item>KiruaVunjo Kusini</item>
+        <item>Kirua Vunjo Magharibi</item>
+        <item>Mabogini</item>
+        <item>Makuyuni</item>
+        <item>Mamba Kaskazini</item>
+        <item>Mamba Kusini</item>
+        <item>Marangu Magharibi</item>
+        <item>Marangu Mashariki</item>
+        <item>Mbokomu</item>
+        <item>Mwika Kaskazini</item>
+        <item>Mwika Kusini</item>
+        <item>Okaoni</item>
+        <item>Old Moshi Magharibi</item>
+        <item>Old Moshi Mashariki</item>
+        <item>Uru Kaskazini</item>
+        <item>Uru Kusini</item>
+        <item>Uru Mashariki</item>
+        <item>Uru Shimbwe</item>
+    </string-array>
+
+    <string-array name="moshi_urban_wards">
+        <item>Boma Mbuzi</item>
+        <item>Bondeni</item>
+        <item>Kaloleni</item>
+        <item>Karanga</item>
+        <item>Kiboriloni</item>
+        <item>Kilimanjaro</item>
+        <item>Kiusa</item>
+        <item>Korongoni</item>
+        <item>Longuo B</item>
+        <item>Majengo</item>
+        <item>Mawenzi</item>
+        <item>Mfumuni</item>
+        <item>Miembeni</item>
+        <item>Mji Mpya</item>
+        <item>Msaranga</item>
+        <item>Ng\'ambo</item>
+        <item>Pasua</item>
+        <item>Rau</item>
+        <item>Shirimatunda</item>
+        <item>Soweto</item>
+    </string-array>
+
+    <string-array name="mwanga_wards">
+        <item>Chomvu</item>
+        <item>Jipe</item>
+        <item>Kifula</item>
+        <item>Kighare</item>
+        <item>Kigoningoni</item>
+        <item>Kileo</item>
+        <item>Kilomeni</item>
+        <item>Kirongwe</item>
+        <item>Kirya</item>
+        <item>Kivisini</item>
+        <item>Kwakoa</item>
+        <item>Lang\'ata</item>
+        <item>Lembeni</item>
+        <item>Mgagao</item>
+        <item>Msangeni</item>
+        <item>Mwanga</item>
+        <item>Mwaniko</item>
+        <item>Ngujini</item>
+        <item>Shighatini</item>
+        <item>Toloha</item>
+    </string-array>
+
+    <string-array name="rombo_wards">
+        <item>Aleni</item>
+        <item>Holili</item>
+        <item>Katangara Mrere</item>
+        <item>Kelamfua Mokala</item>
+        <item>Keni Mengeni</item>
+        <item>Kirongo Samanga</item>
+        <item>Kirwa Keni</item>
+        <item>Kisale Msaranga</item>
+        <item>Kitirima Kingachi</item>
+        <item>Mahida</item>
+        <item>Makiidi</item>
+        <item>Mamsera</item>
+        <item>Manda</item>
+        <item>Marangu Kitowo</item>
+        <item>Mengwe</item>
+        <item>Motamburu Kitendeni</item>
+        <item>Mrao Keryo</item>
+        <item>Nanjara Reha</item>
+        <item>Ngoyoni</item>
+        <item>Olele</item>
+        <item>Shimbi</item>
+        <item>Tarakea Motamburu</item>
+        <item>Ubetu Kahe</item>
+        <item>Ushiri Ikuini</item>
+    </string-array>
+
+    <string-array name="same_wards">
+        <item>Bendera</item>
+        <item>Bombo</item>
+        <item>Bwambo</item>
+        <item>Chome</item>
+        <item>Hedaru</item>
+        <item>Kalemawe</item>
+        <item>Kihurio</item>
+        <item>Kirangare</item>
+        <item>Kisima</item>
+        <item>Kisiwani</item>
+        <item>Lugulu</item>
+        <item>Mabilioni</item>
+        <item>Makanya</item>
+        <item>Maore</item>
+        <item>Mhezi</item>
+        <item>Mpinji</item>
+        <item>Mshewa</item>
+        <item>Msindo</item>
+        <item>Mtii</item>
+        <item>Mwembe</item>
+        <item>Myamba</item>
+        <item>Ndungu</item>
+        <item>Njoro</item>
+        <item>Ruvu</item>
+        <item>Same</item>
+        <item>Stesheni</item>
+        <item>Suji</item>
+        <item>Vudee</item>
+        <item>Vuje</item>
+        <item>Vumari</item>
+        <item>Vunta</item>
+    </string-array>
+
+    <string-array name="siha_wards">
+        <item>Biriri</item>
+        <item>Gararagua</item>
+        <item>Ivaeny</item>
+        <item>Karansi</item>
+        <item>Kashisha</item>
+        <item>Livishi</item>
+        <item>Makiwaru</item>
+        <item>Nasai</item>
+        <item>Ndumeti</item>
+        <item>Ngarenairobi</item>
+        <item>Olkolili</item>
+        <item>Sanya Juu</item>
+    </string-array>
+
+    // Pemba Kusini
+    <string-array name="chake_chake_wards">
+        <item>Chachani</item>
+        <item>Chanjaani</item>
+        <item>Chonga</item>
+        <item>Kichungwani</item>
+        <item>Kilindi</item>
+        <item>Kwale</item>
+        <item>Mkoroshoni</item>
+        <item>Msingini</item>
+        <item>Ndagoni</item>
+        <item>Ng\'ambwa</item>
+        <item>Pujini</item>
+        <item>Shungi</item>
+        <item>Tibirinzi</item>
+        <item>Vitongoji</item>
+        <item>Wara</item>
+        <item>Wawi</item>
+        <item>Ziwani</item>
+    </string-array>
+
+    <string-array name="mkoani_wards">
+        <item>Chambani</item>
+        <item>Changaweni</item>
+        <item>Chokocho</item>
+        <item>Kangani</item>
+        <item>Kengeja</item>
+        <item>Kisiwa Panza</item>
+        <item>Kiwani</item>
+        <item>Makombeni</item>
+        <item>Makoongwe</item>
+        <item>Mbuguani</item>
+        <item>Mbuyuni</item>
+        <item>Mizingani</item>
+        <item>Mkanyageni</item>
+        <item>Mtambile</item>
+        <item>Muambe</item>
+        <item>Ng\'ombeni</item>
+        <item>Uweleni</item>
+        <item>Wambaa</item>
+    </string-array>
+
+    // Unguja Kusini
+    <string-array name="kati_wards">
+        <item>Bambi</item>
+        <item>Chwaka</item>
+        <item>Dunga</item>
+        <item>Jumbi</item>
+        <item>Kibojeu</item>
+        <item>Koani</item>
+        <item>Michamvi</item>
+        <item>Ndijani</item>
+        <item>Unguja Ukuu</item>
+        <item>Uzi</item>
+        <item>Uzini</item>
+    </string-array>
+
+    <string-array name="kusini_wards">
+        <item>Bwejuu</item>
+        <item>Kajengwa</item>
+        <item>Kibigija</item>
+        <item>Kikadini</item>
+        <item>Kizimkazi</item>
+        <item>Mtegani</item>
+        <item>Mtende</item>
+        <item>Muungoni</item>
+        <item>Muyuni</item>
+        <item>Mzuri</item>
+        <item>Paje </item>
+    </string-array>
+
+    // Lindi
+    <string-array name="kilwa_wards">
+        <item>Chumo</item>
+        <item>Kandawale</item>
+        <item>Kibata</item>
+        <item>Kikole</item>
+        <item>Kinjumbi</item>
+        <item>Kipatimu</item>
+        <item>Kiranjeranje</item>
+        <item>Kivinjesingino</item>
+        <item>Lihimalyao</item>
+        <item>Likawage</item>
+        <item>Mandawa</item>
+        <item>Masoko</item>
+        <item>Miguruwe</item>
+        <item>Mingumbi</item>
+        <item>Miteja</item>
+        <item>Mitole</item>
+        <item>Nanjirinji</item>
+        <item>Njinjo</item>
+        <item>Pande</item>
+        <item>Songosongo</item>
+        <item>Tingi</item>
+    </string-array>
+
+    <string-array name="lindi_wards">
+        <item>Chiponda</item>
+        <item>Kilangala</item>
+        <item>Kilolambwani</item>
+        <item>Kitomanga</item>
+        <item>Kiwalala</item>
+        <item>Kiwawa</item>
+        <item>Longa</item>
+        <item>Majengo</item>
+        <item>Mandwanga</item>
+        <item>Matimba</item>
+        <item>Mchinga</item>
+        <item>Milola</item>
+        <item>Mipingo</item>
+        <item>Mnara</item>
+        <item>Mnolela</item>
+        <item>Mtama</item>
+        <item>Mtua</item>
+        <item>Mtumbya</item>
+        <item>Nachunyu</item>
+        <item>Nahukahuka</item>
+        <item>Namangale</item>
+        <item>Namupa</item>
+        <item>Nangaru</item>
+        <item>Navanga</item>
+        <item>Nyangamara</item>
+        <item>Nyangao</item>
+        <item>Nyengedi</item>
+        <item>Pangatena</item>
+        <item>Rutamba</item>
+        <item>Sudi</item>
+    </string-array>
+
+    <string-array name="lindi_urban_wards">
+        <item>Chikonji</item>
+        <item>Jamhuri</item>
+        <item>Makonde</item>
+        <item>Matopeni</item>
+        <item>Mbanja</item>
+        <item>Mikumbi</item>
+        <item>Mingoyo</item>
+        <item>Mitandi</item>
+        <item>Msinjahili</item>
+        <item>Mtanda</item>
+        <item>Mwenge</item>
+        <item>Nachingwea</item>
+        <item>Ndoro</item>
+        <item>Ng\'apa</item>
+        <item>Rahaleo</item>
+        <item>Rasbura</item>
+        <item>Tandangongoro</item>
+        <item>Wailes</item>
+    </string-array>
+
+    <string-array name="liwale_wards">
+        <item>Barikiwa</item>
+        <item>Kiangara</item>
+        <item>Kibutuka</item>
+        <item>Kichonda</item>
+        <item>Kimambi</item>
+        <item>Likongowele</item>
+        <item>Lilombe</item>
+        <item>Liwale B</item>
+        <item>Liwale Mjini</item>
+        <item>Makata</item>
+        <item>Mangirikiti</item>
+        <item>Mbaya</item>
+        <item>Mihumo</item>
+        <item>Mirui</item>
+        <item>Mkutano</item>
+        <item>Mlembwe</item>
+        <item>Mpigamiti</item>
+        <item>Nangando</item>
+        <item>Nangano</item>
+        <item>Ngongowele</item>
+    </string-array>
+
+    <string-array name="nachingwea_wards">
+        <item>Chiola</item>
+        <item>Kiegei</item>
+        <item>Kilimanihewa</item>
+        <item>Kilima Rondo</item>
+        <item>Kipara Mnero</item>
+        <item>Lionja</item>
+        <item>Marambo</item>
+        <item>Matekwe</item>
+        <item>Mbondo</item>
+        <item>Minero Miembeni</item>
+        <item>Minerongongo</item>
+        <item>Mkoka</item>
+        <item>Mkotokuyana</item>
+        <item>Mpiruka</item>
+        <item>Mtua</item>
+        <item>Naipanga</item>
+        <item>Naipingo</item>
+        <item>Namapwia</item>
+        <item>Namatula</item>
+        <item>Nambambo</item>
+        <item>Namikango</item>
+        <item>Nangowe</item>
+        <item>Nditi</item>
+        <item>Ndomoni</item>
+        <item>Ruponda</item>
+        <item>Stesheni</item>
+    </string-array>
+
+    <string-array name="ruangwa_wards">
+        <item>Chibula</item>
+        <item>Chienjele</item>
+        <item>Chinongwe</item>
+        <item>Chunyu</item>
+        <item>Likunja</item>
+        <item>Luchelegwa</item>
+        <item>Makanjiro</item>
+        <item>Malolo</item>
+        <item>Mandarawe</item>
+        <item>Mandawa</item>
+        <item>Matambarale</item>
+        <item>Mbekenyera</item>
+        <item>Mnacho</item>
+        <item>Nachingwea</item>
+        <item>Nambilanje</item>
+        <item>Namichiga</item>
+        <item>Nandagala</item>
+        <item>Nanganga</item>
+        <item>Narung\'ombe</item>
+        <item>Nkowe</item>
+        <item>Ruangwa</item>
+    </string-array>
+
+    // Manyara
+    <string-array name="babati_wards">
+        <item>Arri</item>
+        <item>Ayasanda</item>
+        <item>Bashneti</item>
+        <item>Dabil</item>
+        <item>Dareda</item>
+        <item>Duru</item>
+        <item>Galapo</item>
+        <item>Gidas</item>
+        <item>Kiru</item>
+        <item>Madunga</item>
+        <item>Magara</item>
+        <item>Magugu</item>
+        <item>Mamire</item>
+        <item>Mwada</item>
+        <item>Nkaiti</item>
+        <item>Qashi</item>
+        <item>Riroda</item>
+        <item>Ufana</item>
+    </string-array>
+
+    <string-array name="babati_urban_wards">
+        <item>Babati</item>
+        <item>Bagara</item>
+        <item>Bonga</item>
+        <item>Maisaka</item>
+        <item>Mutuka</item>
+        <item>Nangara</item>
+        <item>Sigino</item>
+        <item>Singe</item>
+    </string-array>
+
+    <string-array name="hanang_wards">
+        <item>Balagidalalu</item>
+        <item>Bassodesh</item>
+        <item>Bassotu</item>
+        <item>Dirma</item>
+        <item>Endasak</item>
+        <item>Endasiwold</item>
+        <item>Ganana</item>
+        <item>Gehandu</item>
+        <item>Gendabi</item>
+        <item>Getanuwas</item>
+        <item>Gidahababieg</item>
+        <item>Gisambalang</item>
+        <item>Giting</item>
+        <item>Hidet</item>
+        <item>Hirbadaw</item>
+        <item>Katesh</item>
+        <item>Laghanga</item>
+        <item>Lalaji</item>
+        <item>Masakta</item>
+        <item>Maskron</item>
+        <item>Masqaroda</item>
+        <item>Mogitu</item>
+        <item>Nangwa</item>
+        <item>Simbay</item>
+        <item>Sirop</item>
+    </string-array>
+
+    <string-array name="kiteto_wards">
+        Bwagamoyo(2) 2105153 2
+        <item>Chapakazi</item>
+        <item>Dongo</item>
+        <item>Dosidosi</item>
+        <item>Engusero</item>
+        <item>Kibaya</item>
+        <item>Kijungu</item>
+        <item>Lengatei</item>
+        <item>Loolera</item>
+        <item>Magungu</item>
+        <item>Makame</item>
+        <item>Matui</item>
+        <item>Namelock</item>
+        <item>Ndedo</item>
+        <item>Njoro</item>
+        <item>Olboroti</item>
+        <item>Partimbo</item>
+        <item>Songambele</item>
+        <item>Sunya</item>
+    </string-array>
+
+    <string-array name="mbulu_wards">
+        <item>Ayamaami</item>
+        <item>Ayamohe</item>
+        <item>Bargish</item>
+        <item>Bashay</item>
+        <item>Daudi</item>
+        <item>Dinamu</item>
+        <item>Dongobesh</item>
+        <item>Endagikot</item>
+        <item>Endamilay</item>
+        <item>Eshkesh</item>
+        <item>Gehandu</item>
+        <item>Geterer</item>
+        <item>Gidihim</item>
+        <item>Gunyoda</item>
+        <item>Hayderer</item>
+        <item>Haydom</item>
+        <item>Imboru</item>
+        <item>Kainam</item>
+        <item>Maghang</item>
+        <item>Marang</item>
+        <item>Maretadu</item>
+        <item>Masieda</item>
+        <item>Masqaroda</item>
+        <item>Murray</item>
+        <item>Nahasey</item>
+        <item>Nambisi</item>
+        <item>Sanu Baray</item>
+        <item>Tlawi</item>
+        <item>Tumati</item>
+        <item>Uhuru</item>
+        <item>Yaeda Ampa</item>
+        <item>Yaeda Chini</item>
+    </string-array>
+
+    <string-array name="simanjiro_wards">
+        <item>Emboreet</item>
+        <item>Endiantu</item>
+        <item>Endonyongijape</item>
+        <item>Kitwai</item>
+        <item>Komolo</item>
+        <item>Liborsoit</item>
+        <item>Loiborsiret</item>
+        <item>Mererani</item>
+        <item>Msitu wa Tembo</item>
+        <item>Naberera</item>
+        <item>Naisinyai</item>
+        <item>Ngorika</item>
+        <item>Oljoro No. 5</item>
+        <item>Orkesmet</item>
+        <item>Ruvu Remiti</item>
+        <item>Shambarai</item>
+        <item>Terrat</item>
+    </string-array>
+
+    // Mara
+    <string-array name="bunda_wards">
+        <item>Balili</item>
+        <item>Bunda Mjini</item>
+        <item>Bunda Stoo</item>
+        <item>Butimba</item>
+        <item>Chitengule</item>
+        <item>Guta</item>
+        <item>Hunyari</item>
+        <item>Igundu</item>
+        <item>Iramba</item>
+        <item>Kabasa</item>
+        <item>Kasuguti</item>
+        <item>Ketare</item>
+        <item>Kibara</item>
+        <item>Kisorya</item>
+        <item>Kunzugu</item>
+        <item>Mcharo</item>
+        <item>Mihingo</item>
+        <item>Mugeta</item>
+        <item>Namhula</item>
+        <item>Nampindi</item>
+        <item>Nansimo</item>
+        <item>Neruma</item>
+        <item>Nyamang\'uta</item>
+        <item>Nyamuswa</item>
+        <item>Nyasura</item>
+        <item>Salama</item>
+        <item>Sazira</item>
+        <item>Wariku</item>
+    </string-array>
+
+    <string-array name="butiama_wards">
+        <item>Bisumwa</item>
+        <item>Buhemba</item>
+        <item>Bukabwa</item>
+        <item>Buruma</item>
+        <item>Busegwe</item>
+        <item>Buswahili</item>
+        <item>Butiama</item>
+        <item>Butuguri</item>
+        <item>Bwiregi</item>
+        <item>Etaro</item>
+        <item>Kukirango</item>
+        <item>Kyanyari</item>
+        <item>Masaba</item>
+        <item>Mirwa</item>
+        <item>Muriaza</item>
+        <item>Nyakatende</item>
+        <item>Nyamimange</item>
+        <item>Nyankanga</item>
+        <item>Nyegina</item>
+        <item>Sirorisimba</item>
+    </string-array>
+
+    <string-array name="musoma_wards">
+        <item>Bugwema</item>
+        <item>Bukima</item>
+        <item>Bukumi</item>
+        <item>Bulinga</item>
+        <item>Busambara</item>
+        <item>Bwasi</item>
+        <item>Kiriba</item>
+        <item>Makojo</item>
+        <item>Mugango</item>
+        <item>Murangi</item>
+        <item>Nyambono</item>
+        <item>Nyamrandirira</item>
+        <item>Suguti</item>
+        <item>Tegeruka</item>
+    </string-array>
+
+    <string-array name="musoma_municipal_wards">
+        <item>Buhare</item>
+        <item>Bweri</item>
+        <item>Iringo</item>
+        <item>Kamunyonge</item>
+        <item>Kigera</item>
+        <item>Kitaji</item>
+        <item>Makoko</item>
+        <item>Mukendo</item>
+        <item>Mwigobero</item>
+        <item>Mwisenge</item>
+        <item>Nyakato</item>
+        <item>Nyamatare</item>
+        <item>Nyasho</item>
+    </string-array>
+
+    <string-array name="rorya_wards">
+        <item>Bukura</item>
+        <item>Bukwe</item>
+        <item>Goribe</item>
+        <item>Ikoma</item>
+        <item>Kigunga</item>
+        <item>Kirogo</item>
+        <item>Kisumwa</item>
+        <item>Kitembe</item>
+        <item>Komuge</item>
+        <item>Koryo</item>
+        <item>Kyang\'ombe</item>
+        <item>Mirare</item>
+        <item>Mkoma</item>
+        <item>Nyahongo</item>
+        <item>Nyamagaro</item>
+        <item>Nyamtinga</item>
+        <item>Nyamunga</item>
+        <item>Nyathorogo</item>
+        <item>Rabour</item>
+        <item>Roche</item>
+        <item>Tai</item>
+    </string-array>
+
+    <string-array name="serengeti_wards">
+        <item>Busawe</item>
+        <item>Geitasamo</item>
+        <item>Ikoma</item>
+        <item>Issenye</item>
+        <item>Kebanchabancha</item>
+        <item>Kenyamonta</item>
+        <item>Kisaka</item>
+        <item>Kisangura</item>
+        <item>Kyambahi</item>
+        <item>Machochwe</item>
+        <item>Magange</item>
+        <item>Majimoto</item>
+        <item>Manchira</item>
+        <item>Mbalibali</item>
+        <item>Morotonga</item>
+        <item>Mosongo</item>
+        <item>Mugumu</item>
+        <item>Natta</item>
+        <item>Nyamatare</item>
+        <item>Nyambureti</item>
+        <item>Nyamoko</item>
+        <item>Nyansurura</item>
+        <item>Rigicha</item>
+        <item>Ring\'wani</item>
+        <item>Rung\'abure</item>
+        <item>Sedeco</item>
+        <item>Stendi Kuu</item>
+        <item>Uwanja wa Ndege</item>
+    </string-array>
+
+    <string-array name="tarime_wards">
+        <item>Binagi</item>
+        <item>Bomani</item>
+        <item>Bumera</item>
+        <item>Genyange</item>
+        <item>Gorong\'a</item>
+        <item>Itiryo</item>
+        <item>Kemambo</item>
+        <item>Kentare</item>
+        <item>Kibasuka</item>
+        <item>Kiore</item>
+        <item>Komaswa</item>
+        <item>Manga</item>
+        <item>Matongo</item>
+        <item>Mbogi</item>
+        <item>Muriba</item>
+        <item>Mwema</item>
+        <item>Nyakonga</item>
+        <item>Nyamaranga</item>
+        <item>Nyamisangura</item>
+        <item>Nyamwaga</item>
+        <item>Nyandoto</item>
+        <item>Nyansicha</item>
+        <item>Nyanungu</item>
+        <item>Nyarero</item>
+        <item>Nyarokoba</item>
+        <item>Pemba</item>
+        <item>Sabasaba</item>
+        <item>Sirari</item>
+        <item>Susuni</item>
+        <item>Turwa</item>
+    </string-array>
+
+    // Mbeya
+    <string-array name="chunya_wards">
+        <item>Chalangwa</item>
+        <item>Chokaa</item>
+        <item>Galula</item>
+        <item>Gua</item>
+        <item>Ifumbo</item>
+        <item>Ifyenkenya</item>
+        <item>Itewe</item>
+        <item>Kambikatoto</item>
+        <item>Kanga</item>
+        <item>Kapalala</item>
+        <item>Lupatingatinga</item>
+        <item>Luwalaje</item>
+        <item>Mafyeko</item>
+        <item>Magamba</item>
+        <item>Makongorosi</item>
+        <item>Mamba</item>
+        <item>Matundasi</item>
+        <item>Matwiga</item>
+        <item>Mbangala</item>
+        <item>Mbugani</item>
+        <item>Mbuyuni</item>
+        <item>Mkola</item>
+        <item>Mkwajuni</item>
+        <item>Mtanila</item>
+        <item>Mwambani</item>
+        <item>Namkukwe</item>
+        <item>Ngwala</item>
+        <item>Sangambi</item>
+        <item>Saza</item>
+        <item>Totowe</item>
+    </string-array>
+
+    <string-array name="kyela_wards">
+        <item>Bujonde</item>
+        <item>Busale</item>
+        <item>Ikama</item>
+        <item>Ikimba</item>
+        <item>Ikolo</item>
+        <item>Ipande</item>
+        <item>Ipinda</item>
+        <item>Itope</item>
+        <item>Kajunjumele</item>
+        <item>Katumbasongwe</item>
+        <item>Kyela</item>
+        <item>Lusungo</item>
+        <item>Makwale</item>
+        <item>Matema</item>
+        <item>Muungano</item>
+        <item>Mwaya</item>
+        <item>Ndobo</item>
+        <item>Ngana</item>
+        <item>Ngonga</item>
+        <item>Talatala</item>
+    </string-array>
+
+    <string-array name="mbarali_wards">
+        <item>Chimala</item>
+        <item>Igava</item>
+        <item>Igurusi</item>
+        <item>Ihahi</item>
+        <item>Imalilosongwe</item>
+        <item>Ipwani</item>
+        <item>Itambaleo</item>
+        <item>Kongolo</item>
+        <item>Lugelele</item>
+        <item>Luhanga</item>
+        <item>Madibira</item>
+        <item>Mahongole</item>
+        <item>Mapogoro</item>
+        <item>Mawindi</item>
+        <item>Miyombweni</item>
+        <item>Mwatenga</item>
+        <item>Ruiwa</item>
+        <item>Rujewa</item>
+        <item>Ubaruku</item>
+        <item>Utengule Usangu</item>
+    </string-array>
+
+    <string-array name="mbeya_wards">
+        <item>Bonde La Songwe</item>
+        <item>Igale</item>
+        <item>Igoma</item>
+        <item>Ihango</item>
+        <item>Ijombe</item>
+        <item>Ikukwa</item>
+        <item>Ilembo</item>
+        <item>Ilungu</item>
+        <item>Inyala</item>
+        <item>Isuto</item>
+        <item>Itawa</item>
+        <item>Itewe</item>
+        <item>Iwiji</item>
+        <item>Iwindi</item>
+        <item>Iyunga Mapinduzi</item>
+        <item>Lwanjiro</item>
+        <item>Maendeleo</item>
+        <item>Masoko</item>
+        <item>Mshewe</item>
+        <item>Nsalala</item>
+        <item>Santilya</item>
+        <item>Swaya</item>
+        <item>Tembela</item>
+        <item>Ulenje</item>
+        <item>Utengule Usongwe</item>
+    </string-array>
+
+    <string-array name="mbeya_urban_wards">
+        <item>Forest</item>
+        <item>Ghana</item>
+        <item>Iduda</item>
+        <item>Iganjo</item>
+        <item>Iganzo</item>
+        <item>Igawilo</item>
+        <item>Ilemi</item>
+        <item>Ilomba</item>
+        <item>Isanga</item>
+        <item>Isyesye</item>
+        <item>Itagano</item>
+        <item>Itende</item>
+        <item>Itezi</item>
+        <item>Itiji</item>
+        <item>Iwambi</item>
+        <item>Iyela</item>
+        <item>Iyunga</item>
+        <item>Iziwa</item>
+        <item>Kalobe</item>
+        <item>Maanga</item>
+        <item>Mabatini</item>
+        <item>Maendeleo</item>
+        <item>Majengo</item>
+        <item>Mbalizi</item>
+        <item>Mwakibete</item>
+        <item>Mwansekwa</item>
+        <item>Mwasanga</item>
+        <item>Nonde</item>
+        <item>Nsalaga</item>
+        <item>Nsoho</item>
+        <item>Nzovwe</item>
+        <item>Ruanda</item>
+        <item>Sinde</item>
+        <item>Sisimba</item>
+        <item>Tembela</item>
+        <item>Uyole</item>
+    </string-array>
+
+    <string-array name="rungwe_wards">
+        <item>Bagamoyo</item>
+        <item>Bujela</item>
+        <item>Bulyaga</item>
+        <item>Ibighi</item>
+        <item>Ikama</item>
+        <item>Ikuti</item>
+        <item>Ilima</item>
+        <item>Isange</item>
+        <item>Isongole</item>
+        <item>Itete</item>
+        <item>Kabula</item>
+        <item>Kambasegela</item>
+        <item>Kandete</item>
+        <item>Kawetele</item>
+        <item>Kikole</item>
+        <item>Kinyala</item>
+        <item>Kisegese</item>
+        <item>Kisiba</item>
+        <item>Kisondela</item>
+        <item>Kiwira</item>
+        <item>Kyimo</item>
+        <item>Lufilyo</item>
+        <item>Lufingo</item>
+        <item>Lupata</item>
+        <item>Luteba</item>
+        <item>Lwangwa</item>
+        <item>Makandana</item>
+        <item>Malindo</item>
+        <item>Masebe</item>
+        <item>Masoko</item>
+        <item>Masukulu</item>
+        <item>Mpombo</item>
+        <item>Mpuguso</item>
+        <item>Msasani</item>
+        <item>Nkunga</item>
+        <item>Suma</item>
+        <item>Swaya</item>
+    </string-array>
+
+    // Morogoro
+    <string-array name="gairo_wards">
+        <item>Chagongwe</item>
+        <item>Chakwale</item>
+        <item>Chanjale</item>
+        <item>Gairo</item>
+        <item>Idibo</item>
+        <item>Iyogwe</item>
+        <item>Kibedya</item>
+        <item>Mandege</item>
+        <item>Msingisi</item>
+        <item>Nongwe</item>
+        <item>Rubeho</item>
+    </string-array>
+
+    <string-array name="kilombero_wards">
+        <item>Chisano</item>
+        <item>Chita</item>
+        <item>Idete</item>
+        <item>Ifakara</item>
+        <item>Kibaoni</item>
+        <item>Kiberege</item>
+        <item>Kidatu</item>
+        <item>Kisawasawa</item>
+        <item>Lumemo</item>
+        <item>Mang\'ula</item>
+        <item>Masagati</item>
+        <item>Mbingu</item>
+        <item>Mchombe</item>
+        <item>Mkula</item>
+        <item>Mlimba</item>
+        <item>Mofu</item>
+        <item>Sanje</item>
+        <item>Uchindile</item>
+        <item>Utengule</item>
+    </string-array>
+
+    <string-array name="kilosa_wards">
+        <item>Berega</item>
+        <item>Chanzulu</item>
+        <item>Dumila</item>
+        <item>Kasiki</item>
+        <item>Kidete</item>
+        <item>Kidodi</item>
+        <item>Kilangali</item>
+        <item>Kimamba A</item>
+        <item>Kimamba B</item>
+        <item>Kisanga</item>
+        <item>Kitete</item>
+        <item>Lumbiji</item>
+        <item>Lumuma</item>
+        <item>Mabula</item>
+        <item>Mabwerebwere</item>
+        <item>Madoto</item>
+        <item>Magole</item>
+        <item>Magomeni</item>
+        <item>Magubike</item>
+        <item>Maguha</item>
+        <item>Malolo</item>
+        <item>Mamboya</item>
+        <item>Masanze</item>
+        <item>Mbumi</item>
+        <item>Mikumi</item>
+        <item>Mkwatani</item>
+        <item>Msowero</item>
+        <item>Ruaha</item>
+        <item>Rudewa</item>
+        <item>Ruhembe</item>
+        <item>Tindiga</item>
+        <item>Ulaya</item>
+        <item>Uleling\'ombe</item>
+        <item>Vidunda</item>
+        <item>Zombo</item>
+    </string-array>
+
+    <string-array name="morogoro_wards">
+        <item>Bungu</item>
+        <item>Bwaki la Chini</item>
+        <item>Bwakila Juu</item>
+        <item>Gwata</item>
+        <item>Kasanga</item>
+        <item>Kibogwa</item>
+        <item>Kibungo Juu</item>
+        <item>Kidugalo</item>
+        <item>Kinole</item>
+        <item>Kiroka</item>
+        <item>Kisaki</item>
+        <item>Kisemu</item>
+        <item>Kolero</item>
+        <item>Konde</item>
+        <item>Lundi</item>
+        <item>Matuli</item>
+        <item>Mikese</item>
+        <item>Mkambarani</item>
+        <item>Mkulazi</item>
+        <item>Mkuyuni</item>
+        <item>Mngazi</item>
+        <item>Mtombozi</item>
+        <item>Mvuha</item>
+        <item>Ngerengere</item>
+        <item>Selembala</item>
+        <item>Singisa</item>
+        <item>Tawa</item>
+        <item>Tegetero</item>
+        <item>Tununguo</item>
+    </string-array>
+
+    <string-array name="morogoro_urban_wards">
+        <item>Bigwa</item>
+        <item>Boma</item>
+        <item>Kichangani</item>
+        <item>Kihonda</item>
+        <item>Kilakala</item>
+        <item>Kingo</item>
+        <item>Kingolwira</item>
+        <item>Kiwanja Cha Ndege</item>
+        <item>Mafiga</item>
+        <item>Mazimbu</item>
+        <item>Mbuyuni</item>
+        <item>Mji Mkuu</item>
+        <item>Mji Mpya</item>
+        <item>Mlimani</item>
+        <item>Mwembesongo</item>
+        <item>Mzinga</item>
+        <item>Sabasaba</item>
+        <item>Sultan Area</item>
+        <item>Uwanja wa Taifa</item>
+    </string-array>
+
+    <string-array name="mvomero_wards">
+        <item>Bunduki</item>
+        <item>Diongoya</item>
+        <item>Doma</item>
+        <item>Hembeti</item>
+        <item>Kanga</item>
+        <item>Kibati</item>
+        <item>Kikeo</item>
+        <item>Langali</item>
+        <item>Maskati</item>
+        <item>Melela</item>
+        <item>Mhonda</item>
+        <item>Mlali</item>
+        <item>Mtibwa</item>
+        <item>Mvomero</item>
+        <item>Mzumbe</item>
+        <item>Sungaji</item>
+        <item>Tchenzema</item>
+    </string-array>
+
+    <string-array name="ulanga_wards">
+        <item>Biro</item>
+        <item>Chirombola</item>
+        <item>Euga</item>
+        <item>Ilonga</item>
+        <item>Iragua</item>
+        <item>Isongo</item>
+        <item>Itete</item>
+        <item>Kichangani</item>
+        <item>Kilosa kwa Mpepo</item>
+        <item>Lukande</item>
+        <item>Lupiro</item>
+        <item>Mahenge</item>
+        <item>Malinyi</item>
+        <item>Mbuga</item>
+        <item>Minepa</item>
+        <item>Msogezi</item>
+        <item>Mtimbira</item>
+        <item>Mwaya</item>
+        <item>Ngoheranga</item>
+        <item>Ruaha</item>
+        <item>Sali</item>
+        <item>Sofi</item>
+        <item>Usangule</item>
+        <item>Vigoi</item>
+    </string-array>
+
+    // Mtwara
+    <string-array name="masasi_wards">
+        <item>Chigugu</item>
+        <item>Chikolopola</item>
+        <item>Chiungutwa</item>
+        <item>Chiwale</item>
+        <item>Chiwata</item>
+        <item>Jida</item>
+        <item>Lipumburu</item>
+        <item>Lukuledi</item>
+        <item>Lulindi</item>
+        <item>Marika</item>
+        <item>Mbuyuni</item>
+        <item>Mchauru</item>
+        <item>Migongo</item>
+        <item>Mkomaindo</item>
+        <item>Mkululu</item>
+        <item>Mkundi</item>
+        <item>Mkuti</item>
+        <item>Mlingula</item>
+        <item>Mnavira</item>
+        <item>Mpanyani</item>
+        <item>Mpindimbi</item>
+        <item>Mtandi</item>
+        <item>Mwena</item>
+        <item>Mwenge</item>
+        <item>Mwenge Mtapika</item>
+        <item>Namajani</item>
+        <item>Namalenga</item>
+        <item>Namatutwe</item>
+        <item>Nanganga</item>
+        <item>Nanjota</item>
+        <item>Nyasa</item>
+        <item>Sindano</item>
+        <item>Sululu</item>
+        <item>Temeke</item>
+    </string-array>
+
+    <string-array name="mtwara_wards">
+        <item>Chawi</item>
+        <item>Dihimba</item>
+        <item>Kiromba</item>
+        <item>Kitaya</item>
+        <item>Kitere</item>
+        <item>Kiyanga</item>
+        <item>Libobe</item>
+        <item>Madimba</item>
+        <item>Mahurunga</item>
+        <item>Mayanga</item>
+        <item>Mbawala</item>
+        <item>Mbembaleo</item>
+        <item>Milango Minne</item>
+        <item>Mnima</item>
+        <item>Mpapura</item>
+        <item>Msanga Mkuu</item>
+        <item>Mtimbwilimbwi</item>
+        <item>Mtiniko</item>
+        <item>Muungano</item>
+        <item>Namtumbuka</item>
+        <item>Nanguruwe</item>
+        <item>Nanyamba</item>
+        <item>Naumbu</item>
+        <item>Ndumbwe</item>
+        <item>Nitekela</item>
+        <item>Njengwa</item>
+        <item>Tangazo</item>
+        <item>Ziwani</item>
+    </string-array>
+
+    <string-array name="mtwara_urban_wards">
+        <item>Chikongola</item>
+        <item>Chuno</item>
+        <item>Jangwani</item>
+        <item>Kisungule</item>
+        <item>Likombe</item>
+        <item>Magengeni</item>
+        <item>Majengo</item>
+        <item>Mitengo</item>
+        <item>Mtonya</item>
+        <item>Naliendele</item>
+        <item>Rahaleo</item>
+        <item>Railway</item>
+        <item>Shangani</item>
+        <item>Ufukoni</item>
+        <item>Vigaeni</item>
+    </string-array>
+
+    <string-array name="nanyumbu_wards">
+        <item>Chipuputa</item>
+        <item>Likokona</item>
+        <item>Lumesule</item>
+        <item>Mangaka</item>
+        <item>Maratani</item>
+        <item>Masuguru</item>
+        <item>Mikangaula</item>
+        <item>Mkonona</item>
+        <item>Mnanje</item>
+        <item>Nandete</item>
+        <item>Nangomba</item>
+        <item>Nanyumbu</item>
+        <item>Napacho</item>
+        <item>Sengenya</item>
+    </string-array>
+
+    <string-array name="newala_wards">
+        <item>Chihangu</item>
+        <item>Chilangala</item>
+        <item>Chitekete</item>
+        <item>Chiwonga</item>
+        <item>Kitangari</item>
+        <item>Luchindu</item>
+        <item>Makonga</item>
+        <item>Makote</item>
+        <item>Makukwe</item>
+        <item>Malatu</item>
+        <item>Maputi</item>
+        <item>Mchemo</item>
+        <item>Mcholi I</item>
+        <item>Mcholi II</item>
+        <item>Mdimba Mpele Mpele</item>
+        <item>Mkoma II</item>
+        <item>Mkunya</item>
+        <item>Mkwedu</item>
+        <item>Mnekachi</item>
+        <item>Mnyambe</item>
+        <item>Mtonya</item>
+        <item>Mtopwa</item>
+        <item>Mtunguru</item>
+        <item>Nakahako</item>
+        <item>Nambali</item>
+        <item>Namiyonga</item>
+        <item>Nandwahi</item>
+        <item>Nanguruwe</item>
+    </string-array>
+
+    <string-array name="tandahimba_wards">
+        <item>Chaume</item>
+        <item>Chikongola</item>
+        <item>Chingungwe</item>
+        <item>Dinduma</item>
+        <item>Kitama</item>
+        <item>Kwanyama</item>
+        <item>Litehu</item>
+        <item>Luagala</item>
+        <item>Lukokoda</item>
+        <item>Lyenje</item>
+        <item>Mahuta</item>
+        <item>Maundo</item>
+        <item>Mchichira</item>
+        <item>Mdimba Mnyoma</item>
+        <item>Mdumbwe</item>
+        <item>Michenjele</item>
+        <item>Mihambwe</item>
+        <item>Milongodi</item>
+        <item>Miuta</item>
+        <item>Mkonjowano</item>
+        <item>Mkoreha</item>
+        <item>Mkundi</item>
+        <item>Mkwiti</item>
+        <item>Mnyawa</item>
+        <item>Nambahu</item>
+        <item>Namikupa</item>
+        <item>Nanhyanga</item>
+        <item>Naputa</item>
+        <item>Ngunja</item>
+        <item>Tandahimba</item>
+    </string-array>
+
+    // Mwanza
+    <string-array name="ilemela_wards">
+        <item>Bugogwa</item>
+        <item>Buswelu</item>
+        <item>Ilemela</item>
+        <item>Kirumba</item>
+        <item>Kitangiri</item>
+        <item>Nyakato</item>
+        <item>Nyamanoro</item>
+        <item>Pasiansi</item>
+        <item>Sangabuye</item>
+    </string-array>
+
+    <string-array name="kwimba_wards">
+        <item>Bugando</item>
+        <item>Bungulwa</item>
+        <item>Bupamwa</item>
+        <item>Fukalo</item>
+        <item>Hungumalwa</item>
+        <item>Igongwa</item>
+        <item>Ilula</item>
+        <item>Iseni</item>
+        <item>Kikubiji</item>
+        <item>Lyoma</item>
+        <item>Maligisu</item>
+        <item>Malya</item>
+        <item>Mantare</item>
+        <item>Mhande</item>
+        <item>Mwabomba</item>
+        <item>Mwagi</item>
+        <item>Mwakilambiti</item>
+        <item>Mwamala</item>
+        <item>Mwandu</item>
+        <item>Mwang\'halanga</item>
+        <item>Mwankulwe</item>
+        <item>Ng\'hundi</item>
+        <item>Ngudu</item>
+        <item>Ngulla</item>
+        <item>Nkalalo</item>
+        <item>Nyambiti</item>
+        <item>Nyamilama</item>
+        <item>Shilembo</item>
+        <item>Sumve</item>
+        <item>Walla</item>
+    </string-array>
+
+    <string-array name="magu_wards">
+        <item>Bujashi</item>
+        <item>Bukandwe</item>
+        <item>Jinjimili</item>
+        <item>Kahangara</item>
+        <item>Kisesa</item>
+        <item>Kitongo Sim</item>
+        <item>Kongolo</item>
+        <item>Lubugu</item>
+        <item>Lutale</item>
+        <item>Magu Mjini</item>
+        <item>Mwamabanza</item>
+        <item>Mwamanga</item>
+        <item>Ng\'haya</item>
+        <item>Nkungulu</item>
+        <item>Nyanguge</item>
+        <item>Nyigogo</item>
+        <item>Shishani</item>
+        <item>Sukuma</item>
+    </string-array>
+
+    <string-array name="misungwi_wards">
+        <item>Buhingo</item>
+        <item>Bulemeji</item>
+        <item>Busongo</item>
+        <item>Fella</item>
+        <item>Gulumungu</item>
+        <item>Idetemya</item>
+        <item>Igokelo</item>
+        <item>Ilujamate</item>
+        <item>Isesa</item>
+        <item>Kanyelele</item>
+        <item>Kasololo</item>
+        <item>Kijima</item>
+        <item>Koromije</item>
+        <item>Lubili</item>
+        <item>Mabuki</item>
+        <item>Mamaye</item>
+        <item>Masasi</item>
+        <item>Mbarika</item>
+        <item>Misungwi</item>
+        <item>Mondo</item>
+        <item>Mwaniko</item>
+        <item>Nhundulu</item>
+        <item>Shilalo</item>
+        <item>Sumbugu</item>
+        <item>Ukiriguru</item>
+        <item>Usagara</item>
+    </string-array>
+
+    <string-array name="nyamagana_wards">
+        <item>Buhongwa</item>
+        <item>Butimba</item>
+        <item>Igogo</item>
+        <item>Igoma</item>
+        <item>Isamilo</item>
+        <item>Mahina</item>
+        <item>Mbugani</item>
+        <item>Mirongo</item>
+        <item>Mkolani</item>
+        <item>Mkuyuni</item>
+        <item>Nyamagana</item>
+        <item>Pamba</item>
+    </string-array>
+
+    <string-array name="sengerema_wards">
+        <item>Bulyaheke</item>
+        <item>Bupandwa</item>
+        <item>Busisi</item>
+        <item>Buyagu</item>
+        <item>Buzilasoga</item>
+        <item>Chifumfu</item>
+        <item>Ibisabageni</item>
+        <item>Igalula</item>
+        <item>Igulumuki</item>
+        <item>Irenza</item>
+        <item>Kafunzo</item>
+        <item>Kagunga</item>
+        <item>Kalebezo</item>
+        <item>Kasenyi</item>
+        <item>Kasungamile</item>
+        <item>Katunguru</item>
+        <item>Katwe</item>
+        <item>Kazunzu</item>
+        <item>Kishinda</item>
+        <item>Lugata</item>
+        <item>Maisome</item>
+        <item>Mwambului</item>
+        <item>Nyakaliro</item>
+        <item>Nyakasasa</item>
+        <item>Nyakasunga</item>
+        <item>Nyamatongo</item>
+        <item>Nyamazugo</item>
+        <item>Nyampande</item>
+        <item>Nyampulukano</item>
+        <item>Nyanzenda</item>
+        <item>Nyatukala</item>
+        <item>Nyehunge</item>
+        <item>Sima</item>
+        <item>Tabaruka</item>
+    </string-array>
+
+    <string-array name="ukerewe_wards">
+        <item>Bukanda</item>
+        <item>Bukindo</item>
+        <item>Bukiro</item>
+        <item>Bukongo</item>
+        <item>Bukungu</item>
+        <item>Bwiro</item>
+        <item>Bwisya</item>
+        <item>Igala</item>
+        <item>Ilangala</item>
+        <item>Irugwa</item>
+        <item>Kagera</item>
+        <item>Kagunguli</item>
+        <item>Kakerege</item>
+        <item>Mukituntu</item>
+        <item>Muriti</item>
+        <item>Murutunguru</item>
+        <item>Nakatunguru</item>
+        <item>Namagondo</item>
+        <item>Namilembe</item>
+        <item>Nansio</item>
+        <item>Nduruma</item>
+        <item>Ngoma</item>
+        <item>Nkilizya</item>
+        <item>Nyamanga</item>
+    </string-array>
+
+    // Njombe
+    <string-array name="ludewa_wards">
+        <item>Ibumi</item>
+        <item>Iwela</item>
+        <item>Kilondo</item>
+        <item>Lifuma</item>
+        <item>Luana</item>
+        <item>Ludende</item>
+        <item>Ludewa</item>
+        <item>Lugarawa</item>
+        <item>Luilo</item>
+        <item>Lumbila</item>
+        <item>Lupanga</item>
+        <item>Lupingu</item>
+        <item>Madilu</item>
+        <item>Madope</item>
+        <item>Makonde</item>
+        <item>Manda</item>
+        <item>Masasi</item>
+        <item>Mavanga</item>
+        <item>Mawengi</item>
+        <item>Milo</item>
+        <item>Mkongobaki</item>
+        <item>Mlangali</item>
+        <item>Mundindi</item>
+        <item>Nkomang\'ombe</item>
+        <item>Ruhuhu</item>
+    </string-array>
+
+    <string-array name="makambako_wards">
+        <item>Kitandililo</item>
+        <item>Lyamkena</item>
+        <item>Mahongole</item>
+        <item>Mlowa</item>
+        <item>Mwembetogwa</item>
+        <item>Ubena</item>
+        <item>Utengule</item>
+    </string-array>
+
+    <string-array name="makete_wards">
+        <item>Bulongwa</item>
+        <item>Ikuwo</item>
+        <item>Iniho</item>
+        <item>Ipelele</item>
+        <item>Ipepo</item>
+        <item>Isapulano</item>
+        <item>Itundu</item>
+        <item>Iwawa</item>
+        <item>Kigala</item>
+        <item>Kigulu</item>
+        <item>Kipagalo</item>
+        <item>Kitulo</item>
+        <item>Lupalilo</item>
+        <item>Lupila</item>
+        <item>Luwumbu</item>
+        <item>Mang\'oto</item>
+        <item>Matamba</item>
+        <item>Mbalatse</item>
+        <item>Mfumbi</item>
+        <item>Mlondwe</item>
+        <item>Tandala</item>
+        <item>Ukwama</item>
+    </string-array>
+
+    <string-array name="njombe_wards">
+        <item>Idamba</item>
+        <item>Igongolo</item>
+        <item>Ikondo</item>
+        <item>Ikuna</item>
+        <item>Kichiwa</item>
+        <item>Kidegembye</item>
+        <item>Lupembe</item>
+        <item>Matembwe</item>
+        <item>Mfriga</item>
+        <item>Mtwango</item>
+        <item>Ninga</item>
+    </string-array>
+
+    <string-array name="njombe_urban_wards">
+        <item>Ihanga</item>
+        <item>Iwungilo</item>
+        <item>Kifanya</item>
+        <item>Lugenge</item>
+        <item>Luponde</item>
+        <item>Makowo</item>
+        <item>Matola</item>
+        <item>Mjimwema</item>
+        <item>Njombe Mjini</item>
+        <item>Ramadhani</item>
+        <item>Utalingolo</item>
+        <item>Uwemba</item>
+        <item>Yakobi</item>
+    </string-array>
+
+    <string-array name="wangingombe_wards">
+        <item>Igima</item>
+        <item>Igosi</item>
+        <item>Igwachanya</item>
+        <item>Ilembula</item>
+        <item>Imalinyi</item>
+        <item>Kidugala</item>
+        <item>Kijombe</item>
+        <item>Kipengere</item>
+        <item>Luduga</item>
+        <item>Makoga</item>
+        <item>Mdandu</item>
+        <item>Saja</item>
+        <item>Uhambule</item>
+        <item>Ulembwe</item>
+        <item>Usuka</item>
+        <item>Wangama</item>
+        <item>Wanging\'ombe</item>
+    </string-array>
+
+    // Pwani
+    <string-array name="bagamoyo_wards">
+        <item>Bwilingu</item>
+        <item>Dunda</item>
+        <item>Fukayose</item>
+        <item>Kerege</item>
+        <item>Kibindu</item>
+        <item>Kimange</item>
+        <item>Kiromo</item>
+        <item>Kiwangwa</item>
+        <item>Lugoba</item>
+        <item>Magomeni</item>
+        <item>Mandera</item>
+        <item>Mbwewe</item>
+        <item>Miono</item>
+        <item>Mkange</item>
+        <item>Msata</item>
+        <item>Msoga</item>
+        <item>Pera</item>
+        <item>Talawanda</item>
+        <item>Ubenazomozi</item>
+        <item>Vigwaza</item>
+        <item>Yombo</item>
+        <item>Zinga</item>
+    </string-array>
+
+    <string-array name="kibaha_wards">
+        <item>Bokomnemela</item>
+        <item>Dutumi</item>
+        <item>Gwata</item>
+        <item>Janga</item>
+        <item>Kikongo</item>
+        <item>Kilangalanga</item>
+        <item>Kwala</item>
+        <item>Magindu</item>
+        <item>Mlandizi</item>
+        <item>Ruvu</item>
+        <item>Soga</item>
+    </string-array>
+
+    <string-array name="kibaha_urban_wards">
+        <item>Kibaha</item>
+        <item>Kongowe</item>
+        <item>Mailimoja</item>
+        <item>Mbwawa</item>
+        <item>Misugusugu</item>
+        <item>Mkuza</item>
+        <item>Msangani</item>
+        <item>Pangani</item>
+        <item>Picha ya Ndege</item>
+        <item>Tumbi</item>
+        <item>Visiga</item>
+    </string-array>
+
+    <string-array name="kisarawe_wards">
+        <item>Cholesamvula</item>
+        <item>Kibuta</item>
+        <item>Kiluvya</item>
+        <item>Kisarawe</item>
+        <item>Kurui</item>
+        <item>Mafizi</item>
+        <item>Maneromango</item>
+        <item>Marui</item>
+        <item>Marumbo</item>
+        <item>Masaki</item>
+        <item>Msanga</item>
+        <item>Msimbu</item>
+        <item>Mzenga</item>
+        <item>Vihingo</item>
+        <item>Vikumbulu</item>
+    </string-array>
+
+    <string-array name="mafia_wards">
+        <item>Baleni</item>
+        <item>Jibondo</item>
+        <item>Kanga</item>
+        <item>Kiegeani</item>
+        <item>Kilindoni</item>
+        <item>Kirongwe</item>
+        <item>Miburani</item>
+        <item>Ndagoni</item>
+    </string-array>
+
+    <string-array name="mkuranga_wards">
+        <item>Bupu</item>
+        <item>Kimanzichana</item>
+        <item>Kiparang\'anda</item>
+        <item>Kisiju</item>
+        <item>Kitomondo</item>
+        <item>Lukanga</item>
+        <item>Magawa</item>
+        <item>Mbezi</item>
+        <item>Mkamba</item>
+        <item>Mkuranga</item>
+        <item>Mwarusembe</item>
+        <item>Njia nne</item>
+        <item>Nyamato</item>
+        <item>Panzuo</item>
+        <item>Shungubweni</item>
+        <item>Tambani</item>
+        <item>Vianzi</item>
+        <item>Vikindu</item>
+    </string-array>
+
+    <string-array name="rufiji_wards">
+        <item>Bungu</item>
+        <item>Chemchem</item>
+        <item>Chumbi</item>
+        <item>Dimani</item>
+        <item>Ikwiriri</item>
+        <item>Kibiti</item>
+        <item>Kiongoroni</item>
+        <item>Mahege</item>
+        <item>Maparoni</item>
+        <item>Mbuchi</item>
+        <item>Mbwara</item>
+        <item>Mchukwi</item>
+        <item>Mgomba</item>
+        <item>Mjawa</item>
+        <item>Mkongo</item>
+        <item>Mlanzi</item>
+        <item>Mtawanya</item>
+        <item>Mtunda</item>
+        <item>Mwambao</item>
+        <item>Mwaseni</item>
+        <item>Ngarambe</item>
+        <item>Ngorongo</item>
+        <item>Ruaruke</item>
+        <item>Salale</item>
+        <item>Umwe</item>
+        <item>Utete</item>
+    </string-array>
+
+    // Unguja Mjini Magharibi
+    <string-array name="magharibi_wards">
+        <item>Bububu</item>
+        <item>Dimani</item>
+        <item>Fuoni</item>
+        <item>Kiembesamaki</item>
+        <item>Kijitoupele</item>
+        <item>Kizimbani</item>
+        <item>Magogoni</item>
+        <item>Mbuzini</item>
+        <item>Mfenesini</item>
+        <item>Mtoni</item>
+        <item>Mwanakwerekwe</item>
+        <item>Mwanyanya</item>
+        <item>Mwera</item>
+        <item>Tomondo</item>
+        <item>Welezo</item>
+    </string-array>
+
+    <string-array name="mjini_wards">
+        <item>Amani</item>
+        <item>Chumbuni</item>
+        <item>Jang\'ombe</item>
+        <item>Kikwajuni</item>
+        <item>Kilimahewa</item>
+        <item>Kwaalinathoo</item>
+        <item>Kwahani</item>
+        <item>Kwamtipura</item>
+        <item>Magomeni</item>
+        <item>Makadara</item>
+        <item>Mchangani</item>
+        <item>Meya</item>
+        <item>Miembeni</item>
+        <item>Mkele </item>
+        <item>Mkunazini</item>
+        <item>Mpendae</item>
+        <item>Muungano</item>
+        <item>Mwembe Makumbi</item>
+        <item>Nyerere</item>
+        <item>Rahaleo</item>
+    </string-array>
+
+    // Rukwa
+    <string-array name="kalambo_wards">
+        <item>Kasanga</item>
+        <item>Katazi</item>
+        <item>Katete</item>
+        <item>Kilesha</item>
+        <item>Kisumba</item>
+        <item>Legeza Mwendo</item>
+        <item>Mabwekenya</item>
+        <item>Matai</item>
+        <item>Mkali</item>
+        <item>Mkowe</item>
+        <item>Mnamba</item>
+        <item>Msanzi</item>
+        <item>Mwazye</item>
+        <item>Mwembenkoswe</item>
+        <item>Mwimbi</item>
+        <item>Sopa</item>
+        <item>Ulumi</item>
+    </string-array>
+
+    <string-array name="nkasi_wards">
+        <item>Chala</item>
+        <item>Isale</item>
+        <item>Kabwe</item>
+        <item>Kala</item>
+        <item>Kate</item>
+        <item>Kipande</item>
+        <item>Kipili</item>
+        <item>Kirando</item>
+        <item>Korongwe</item>
+        <item>Mkwamba</item>
+        <item>Mtenga</item>
+        <item>Namanyere</item>
+        <item>Ninde</item>
+        <item>Nkandasi</item>
+        <item>Nkomolo</item>
+        <item>Sintali</item>
+        <item>Wampembe</item>
+    </string-array>
+
+    <string-array name="sumbawanga_wards">
+        <item>Ilemba</item>
+        <item>Kaengesa</item>
+        <item>Kalambanzite</item>
+        <item>Kaoze</item>
+        <item>Kipeta</item>
+        <item>Laela</item>
+        <item>Lusaka</item>
+        <item>Mfinga</item>
+        <item>Miangalua</item>
+        <item>Milepa</item>
+        <item>Mpui</item>
+        <item>Msanda Muungano</item>
+        <item>Mtowisa</item>
+        <item>Muze</item>
+        <item>Sandulula</item>
+    </string-array>
+
+    <string-array name="sumbawanga_urban_wards">
+        <item>Chanji</item>
+        <item>Izia</item>
+        <item>Kasense</item>
+        <item>Katandala</item>
+        <item>Kizwite</item>
+        <item>Majengo</item>
+        <item>Malangali</item>
+        <item>Matanga</item>
+        <item>Mazwi</item>
+        <item>Milanzi</item>
+        <item>Mollo</item>
+        <item>Ntendo</item>
+        <item>Old Sumbawanga</item>
+        <item>Pito</item>
+        <item>Senga</item>
+    </string-array>
+
+    // Ruvuma
+    <string-array name="mbinga_wards">
+        <item>Kambarage</item>
+        <item>Kigonsera</item>
+        <item>Kihangi Mahuka</item>
+        <item>Kihungu</item>
+        <item>Kikolo</item>
+        <item>Kilimani</item>
+        <item>Kipapa</item>
+        <item>Kipololo</item>
+        <item>Kitanda</item>
+        <item>Kitumbalomo</item>
+        <item>Kitura</item>
+        <item>Langiro</item>
+        <item>Linda</item>
+        <item>Litembo</item>
+        <item>Litumbandyosi</item>
+        <item>Luwaita</item>
+        <item>Maguu</item>
+        <item>Mapera</item>
+        <item>Matiri</item>
+        <item>Mbangamao</item>
+        <item>Mbinga Mjini</item>
+        <item>Mbuji</item>
+        <item>Mikalanga</item>
+        <item>Mkako</item>
+        <item>Mkumbi</item>
+        <item>Mpapa</item>
+        <item>Mpepai</item>
+        <item>Myangayanga</item>
+        <item>Namswea</item>
+        <item>Ngima</item>
+        <item>Nyoni</item>
+        <item>Ruanda</item>
+        <item>Ukata</item>
+        <item>Utiri</item>
+    </string-array>
+
+    <string-array name="songea_wards">
+        <item>Gumbiro</item>
+        <item>Kilagano</item>
+        <item>Litisha</item>
+        <item>Magagura</item>
+        <item>Mahanje</item>
+        <item>Maposeni</item>
+        <item>Matimira</item>
+        <item>Matumbi</item>
+        <item>Mbinga Mhalule</item>
+        <item>Mkongotema</item>
+        <item>Mpandangino</item>
+        <item>Mpitimbi</item>
+        <item>Mtyangimbole</item>
+        <item>Muhuruku</item>
+        <item>Ndongosi</item>
+        <item>Peramiho</item>
+        <item>Wino</item>
+    </string-array>
+
+    <string-array name="songea_urban_wards">
+        <item>Bombambili</item>
+        <item>Lilambo</item>
+        <item>Lizaboni</item>
+        <item>Majengo</item>
+        <item>Matarawe</item>
+        <item>Mateka</item>
+        <item>Matogoro</item>
+        <item>Mfaranyaki</item>
+        <item>Misufini</item>
+        <item>Mjimwema</item>
+        <item>Mjini</item>
+        <item>Mletele</item>
+        <item>Msamala</item>
+        <item>Mshangano</item>
+        <item>Mwengemshindo</item>
+        <item>Ndilimalitembo</item>
+        <item>Ruhuwiko</item>
+        <item>Ruvuma</item>
+        <item>Seedfarm</item>
+        <item>Subira</item>
+        <item>Tanga</item>
+    </string-array>
+
+    <string-array name="tunduma_wards">
+        <item>Jakika</item>
+        <item>Kalulu</item>
+        <item>Kidodoma</item>
+        <item>Ligoma</item>
+        <item>Ligunga</item>
+        <item>Lukumbule</item>
+        <item>Majengo</item>
+        <item>Marumba</item>
+        <item>Masonya</item>
+        <item>Matemanga</item>
+        <item>Mbati</item>
+        <item>Mbesa</item>
+        <item>Mchangani</item>
+        <item>Mchesi</item>
+        <item>Mchoteka</item>
+        <item>Mchuluka</item>
+        <item>Mindu</item>
+        <item>Misechela</item>
+        <item>Mlingoti Magharibi</item>
+        <item>Mlingoti Mashariki</item>
+        <item>Mtina</item>
+        <item>Muhuwesi</item>
+        <item>Nakapanya</item>
+        <item>Nakayaya</item>
+        <item>Nalasi-Magharibi</item>
+        <item>Nalasi Mashariki</item>
+        <item>Namasakata</item>
+        <item>Namiungo</item>
+        <item>Nampungu</item>
+        <item>Namwinyu</item>
+        <item>Nandembo</item>
+        <item>Nanjoka</item>
+        <item>Ngapa</item>
+        <item>Sisikwasisi</item>
+        <item>Tuwemacho</item>
+    </string-array>
+
+    <string-array name="namtumbo_wards">
+        <item>Hanga</item>
+        <item>Kitanda</item>
+        <item>Ligera</item>
+        <item>Likuyuseka</item>
+        <item>Limamu</item>
+        <item>Litola</item>
+        <item>Luchili</item>
+        <item>Luegu</item>
+        <item>Lusewa</item>
+        <item>Magazini</item>
+        <item>Mchomoro</item>
+        <item>Mgombasi</item>
+        <item>Mkongo</item>
+        <item>Mputa</item>
+        <item>Msindo</item>
+        <item>Namabengo</item>
+        <item>Namtumbo</item>
+        <item>Rwinga</item>
+    </string-array>
+
+    <string-array name="nyasa_wards">
+        <item>Chiwanda</item>
+        <item>Kihagara</item>
+        <item>Kilosa</item>
+        <item>Kingerikiti</item>
+        <item>Liparamba</item>
+        <item>Lipingo</item>
+        <item>Lituhi</item>
+        <item>Liuli</item>
+        <item>Liwundi</item>
+        <item>Luhangarasi</item>
+        <item>Mbaha</item>
+        <item>Mbambabay</item>
+        <item>Mtipwili</item>
+        <item>Ngumbo</item>
+        <item>Tingi</item>
+    </string-array>
+
+    // Shinyanga
+    <string-array name="kahama_wards">
+        <item>Bugarama</item>
+        <item>Bukomela</item>
+        <item>Bulige</item>
+        <item>Bulungwa</item>
+        <item>Bulyanhulu</item>
+        <item>Busangi</item>
+        <item>Chambo</item>
+        <item>Chela</item>
+        <item>Chona</item>
+        <item>Idahina</item>
+        <item>Igunda</item>
+        <item>Igwamanoni</item>
+        <item>Isaka</item>
+        <item>Jana</item>
+        <item>Kashishi</item>
+        <item>Kinamapula</item>
+        <item>Kisuke</item>
+        <item>Lunguya</item>
+        <item>Mapamba</item>
+        <item>Mega</item>
+        <item>Mpunze</item>
+        <item>Mwalugulu</item>
+        <item>Mwanase</item>
+        <item>Ngaya</item>
+        <item>Ntobo</item>
+        <item>Nyankende</item>
+        <item>Sabasabini</item>
+        <item>Segese</item>
+        <item>Shilela</item>
+        <item>Ubagwe</item>
+        <item>Ukune</item>
+        <item>Ulewe</item>
+        <item>Ulowa</item>
+        <item>Ushetu</item>
+        <item>Uyogo</item>
+    </string-array>
+
+    <string-array name="kahama_township_authority_wards">
+        <item>Busoka</item>
+        <item>Isagehe</item>
+        <item>Iyenze</item>
+        <item>Kagongwa</item>
+        <item>Kahama Mjini</item>
+        <item>Kilago</item>
+        <item>Kinaga</item>
+        <item>Majengo</item>
+        <item>Malunga</item>
+        <item>Mhongolo</item>
+        <item>Mhungula</item>
+        <item>Mwendakulima</item>
+        <item>Ngogwa</item>
+        <item>Nyahanga</item>
+        <item>Nyandekwa</item>
+        <item>Nyasubi</item>
+        <item>Nyihogo</item>
+        <item>Wendele</item>
+        <item>Zongomera</item>
+    </string-array>
+
+    <string-array name="kishapu_wards">
+        <item>Bubiki</item>
+        <item>Bunambiyu</item>
+        <item>Itilima</item>
+        <item>Kiloleli</item>
+        <item>Kishapu</item>
+        <item>Lagana</item>
+        <item>Masanga</item>
+        <item>Mondo</item>
+        <item>Mwadui Lohumbo</item>
+        <item>Mwakipoya</item>
+        <item>Mwamalasa</item>
+        <item>Mwamashele</item>
+        <item>Ngofila</item>
+        <item>Seke Bugoro</item>
+        <item>Shagihilu</item>
+        <item>Somagedi</item>
+        <item>Songwa</item>
+        <item>Talaga</item>
+        <item>Uchunga</item>
+        <item>Ukenyenge</item>
+    </string-array>
+
+    <string-array name="shinyanga_wards">
+        <item>Bukene</item>
+        <item>Didia</item>
+        <item>Ilola</item>
+        <item>Imesela</item>
+        <item>Iselamagazi</item>
+        <item>Itwangi</item>
+        <item>Lyabukande</item>
+        <item>Lyabusalu</item>
+        <item>Lyamidati</item>
+        <item>Masengwa</item>
+        <item>Mwakitolyoo</item>
+        <item>Mwalukwa</item>
+        <item>Mwamala</item>
+        <item>Mwantini</item>
+        <item>Mwenge</item>
+        <item>Nsalala</item>
+        <item>Nyamalogo</item>
+        <item>Nyida</item>
+        <item>Pandagichiza</item>
+        <item>Puni</item>
+        <item>Salawe</item>
+        <item>Samuye</item>
+        <item>Solwa</item>
+        <item>Tinde</item>
+        <item>Usanda</item>
+        <item>Usule</item>
+    </string-array>
+
+    <string-array name="shinyanga_urban_wards">
+        <item>Chamaguha</item>
+        <item>Chibe</item>
+        <item>Ibadakuli</item>
+        <item>Ibinzamata</item>
+        <item>Kambarage</item>
+        <item>Kitangili</item>
+        <item>Kizumbi</item>
+        <item>Kolandoto</item>
+        <item>Lubaga</item>
+        <item>Masekelo</item>
+        <item>Mwamalili</item>
+        <item>Mwawaza</item>
+        <item>Ndala</item>
+        <item>Ndembezi</item>
+        <item>Ngokolo</item>
+        <item>Old Shinyanga</item>
+        <item>Shinyanga Mjini</item>
+    </string-array>
+
+    // Simiyu
+    <string-array name="bariadi_wards">
+        <item>Bariadi</item>
+        <item>Bunamhala</item>
+        <item>Dutwa</item>
+        <item>Gambosi</item>
+        <item>Gilya</item>
+        <item>Guduwi</item>
+        <item>Ikungulyabashashi</item>
+        <item>Isanga</item>
+        <item>Kasoli</item>
+        <item>Kilalo</item>
+        <item>Madobana</item>
+        <item>Malambo</item>
+        <item>Matongo</item>
+        <item>Mhango</item>
+        <item>Mwaubinge</item>
+        <item>Mwaumatondo</item>
+        <item>Ngulyati</item>
+        <item>Nkindwabiye</item>
+        <item>Nkololo</item>
+        <item>Nyakabindi</item>
+        <item>Nyangokolwa</item>
+        <item>Sakwe</item>
+        <item>Sapiwi</item>
+        <item>Sima</item>
+        <item>Somanda</item>
+    </string-array>
+
+    <string-array name="busega_wards">
+        <item>Badugu</item>
+        <item>Igalukilo</item>
+        <item>Kabita</item>
+        <item>Kalemela</item>
+        <item>Kiloleli</item>
+        <item>Lamadi</item>
+        <item>Lutubiga</item>
+        <item>Malili</item>
+        <item>Mkula</item>
+        <item>Mwamanyili</item>
+        <item>Ngasamo</item>
+        <item>Nyaluhande</item>
+        <item>Shigala</item>
+    </string-array>
+
+    <string-array name="itilima_wards">
+        <item>Budalabujiga</item>
+        <item>Bumera</item>
+        <item>Chinamili</item>
+        <item>Ikindiro</item>
+        <item>Kinang\'weli</item>
+        <item>Lagangabilili</item>
+        <item>Lugulu</item>
+        <item>Mbita</item>
+        <item>Mhunze</item>
+        <item>Migato</item>
+        <item>Mwalushu</item>
+        <item>Mwamapalala</item>
+        <item>Mwamtani</item>
+        <item>Mwaswale</item>
+        <item>Ndolelezi</item>
+        <item>Nhobora</item>
+        <item>Nkoma</item>
+        <item>Nkuyu</item>
+        <item>Nyamalapa</item>
+        <item>Sagata</item>
+        <item>Sawida</item>
+        <item>Zagayu</item>
+    </string-array>
+
+    <string-array name="maswa_wards">
+        <item>Badi</item>
+        <item>Binza</item>
+        <item>Buchambi</item>
+        <item>Budekwa</item>
+        <item>Busilili</item>
+        <item>Dakama</item>
+        <item>Ipililo</item>
+        <item>Isanga</item>
+        <item>Kadoto</item>
+        <item>Kulimi</item>
+        <item>Lalago</item>
+        <item>Malampaka</item>
+        <item>Masela</item>
+        <item>Mpindo</item>
+        <item>Mwamanenge</item>
+        <item>Mwamashimba</item>
+        <item>Mwang\'honoli</item>
+        <item>Nguliguli</item>
+        <item>Ng\'wigwa</item>
+        <item>Nyabubinza</item>
+        <item>Nyalikungu</item>
+        <item>Senani</item>
+        <item>Sengwa</item>
+        <item>Shishiyu</item>
+        <item>Sukuma</item>
+        <item>Zanzui</item>
+    </string-array>
+
+    <string-array name="meatu_wards">
+        <item>Bukundi</item>
+        <item>Imalaseko</item>
+        <item>Itinje</item>
+        <item>Kimali</item>
+        <item>Kisesa</item>
+        <item>Lingeka</item>
+        <item>Lubiga</item>
+        <item>Mwabuma</item>
+        <item>Mwabusalu</item>
+        <item>Mwabuzo</item>
+        <item>Mwakisandu</item>
+        <item>Mwamalole</item>
+        <item>Mwamanimba</item>
+        <item>Mwamanongu</item>
+        <item>Mwamishali</item>
+        <item>Mwandoya</item>
+        <item>Mwangundo</item>
+        <item>Mwanhuzi</item>
+        <item>Mwanjolo</item>
+        <item>Mwanyahina</item>
+        <item>Mwasengela</item>
+        <item>Nghoboko</item>
+        <item>Nkoma</item>
+        <item>Sakasaka</item>
+        <item>Tindabuligi</item>
+    </string-array>
+
+    // Singida
+    <string-array name="ikungi_wards">
+        <item>Dung\'unyi</item>
+        <item>Ighombwe</item>
+        <item>Iglansoni</item>
+        <item>Ihanja</item>
+        <item>Ikungi</item>
+        <item>Irisya</item>
+        <item>Iseke</item>
+        <item>Issuna</item>
+        <item>Iyumbu</item>
+        <item>Kikio</item>
+        <item>Kituntu</item>
+        <item>Lighwa</item>
+        <item>Mang\'onyi</item>
+        <item>Mgungira</item>
+        <item>Minyughe</item>
+        <item>Misughaa</item>
+        <item>Mkiwa</item>
+        <item>Mtunduru</item>
+        <item>Muhintiri</item>
+        <item>Mungaa</item>
+        <item>Mwaru</item>
+        <item>Ntuntu</item>
+        <item>Puma</item>
+        <item>Sepuka</item>
+        <item>Siuyu</item>
+        <item>Unyahati</item>
+    </string-array>
+
+    <string-array name="iramba_wards">
+        <item>Kaselya</item>
+        <item>Kidaru</item>
+        <item>Kinampanda</item>
+        <item>Kiomboi</item>
+        <item>Kisiriri</item>
+        <item>Kyengege</item>
+        <item>Mbelekese</item>
+        <item>Mgongo</item>
+        <item>Mtekente</item>
+        <item>Mtoa</item>
+        <item>Ndago</item>
+        <item>Ndulungu</item>
+        <item>Ntwike</item>
+        <item>Shelui</item>
+        <item>Tulya</item>
+        <item>Ulemo</item>
+        <item>Urughu</item>
+    </string-array>
+
+    <string-array name="manyoni_wards">
+        <item>Aghondi</item>
+        <item>Chikola</item>
+        <item>Chikuyu</item>
+        <item>Heka</item>
+        <item>Idodyandole</item>
+        <item>Ipande</item>
+        <item>Isseke</item>
+        <item>Itigi Majengo</item>
+        <item>Itigi Mjini</item>
+        <item>Kintinku</item>
+        <item>Kitaraka</item>
+        <item>Majiri</item>
+        <item>Makanda</item>
+        <item>Makuru</item>
+        <item>Makutupora</item>
+        <item>Manyoni</item>
+        <item>Mgandu</item>
+        <item>Mitundu</item>
+        <item>Mkwese</item>
+        <item>Muhalala</item>
+        <item>Mvumi</item>
+        <item>Mwamagembe</item>
+        <item>Nkonko</item>
+        <item>Rungwa</item>
+        <item>Sanjaranda</item>
+        <item>Sanza</item>
+        <item>Saranda</item>
+        <item>Sasajila</item>
+        <item>Sasilo</item>
+        <item>Solya</item>
+    </string-array>
+
+    <string-array name="mkalama_wards">
+        <item>Gumanga</item>
+        <item>Ibaga</item>
+        <item>Iguguno</item>
+        <item>Ilunda</item>
+        <item>Kikhonda</item>
+        <item>Kinyangiri</item>
+        <item>Matongo</item>
+        <item>Miganga</item>
+        <item>Mpambala</item>
+        <item>Msingi</item>
+        <item>Mwanga</item>
+        <item>Mwangeza</item>
+        <item>Nduguti</item>
+        <item>Nkinto</item>
+    </string-array>
+
+    <string-array name="singida_wards">
+        <item>Ikhanoda</item>
+        <item>Ilongero</item>
+        <item>Itaja</item>
+        <item>Kijota</item>
+        <item>Kinyagigi</item>
+        <item>Kinyeto</item>
+        <item>Maghojoa</item>
+        <item>Makuro</item>
+        <item>Merya</item>
+        <item>Mgori</item>
+        <item>Mrama</item>
+        <item>Msange</item>
+        <item>Msisi</item>
+        <item>Mtinko</item>
+        <item>Mudida</item>
+        <item>Mughamo</item>
+        <item>Mughunga</item>
+        <item>Mwasauya</item>
+        <item>Ngimu</item>
+        <item>Ntonge</item>
+        <item>Ughandi</item>
+    </string-array>
+
+    <string-array name="singida_urban_wards">
+        <item>Ipembe</item>
+        <item>Kindai</item>
+        <item>Majengo</item>
+        <item>Mandewa</item>
+        <item>Minga</item>
+        <item>Misuna</item>
+        <item>Mitunduru</item>
+        <item>Mtamaa</item>
+        <item>Mtipa</item>
+        <item>Mughanga</item>
+        <item>Mungu maji</item>
+        <item>Mwankoko</item>
+        <item>Uhamaka</item>
+        <item>Umyambwa</item>
+        <item>Unyamikumbi</item>
+        <item>Utemini</item>
+    </string-array>
+
+    // Songwe
+    <string-array name="ileje_wards">
+        <item>Bupigu</item>
+        <item>Chitete</item>
+        <item>Ibaba</item>
+        <item>Ikinga</item>
+        <item>Isongole</item>
+        <item>Itale</item>
+        <item>Itumba</item>
+        <item>Kafule</item>
+        <item>Kalembo</item>
+        <item>Lubanda</item>
+        <item>Luswisi</item>
+        <item>Malangali</item>
+        <item>Mbebe</item>
+        <item>Mlale</item>
+        <item>Ndola</item>
+        <item>Ngulilo</item>
+        <item>Ngulugulu</item>
+        <item>Sange</item>
+    </string-array>
+
+    <string-array name="mbozi_wards">
+        <item>Bara</item>
+        <item>Halungu</item>
+        <item>Igamba</item>
+        <item>Ihanda</item>
+        <item>Ipunga</item>
+        <item>Isandula</item>
+        <item>Isansa</item>
+        <item>Itaka</item>
+        <item>Iyula</item>
+        <item>Mlangali</item>
+        <item>Mlowo</item>
+        <item>Msia</item>
+        <item>Myovizi</item>
+        <item>Nambinzo</item>
+        <item>Nanyala</item>
+        <item>Nyambili</item>
+        <item>Ruanda</item>
+        <item>Vwawa</item>
+    </string-array>
+
+    <string-array name="momba_wards">
+        <item>Chilulumo</item>
+        <item>Chitete</item>
+        <item>Chiwezi</item>
+        <item>Ivuna</item>
+        <item>Kamsamba</item>
+        <item>Kapele</item>
+        <item>Mkulwe</item>
+        <item>Mpapa</item>
+        <item>Msangano</item>
+        <item>Myunga</item>
+        <item>Ndalembo</item>
+        <item>Nkangamo</item>
+        <item>Nzoka</item>
+        <item>Tunduma</item>
+    </string-array>
+
+    // Tabora
+    <string-array name="igunga_wards">
+        <item>Bukoko</item>
+        <item>Chabutwa</item>
+        <item>Choma</item>
+        <item>Igowero</item>
+        <item>Igunga</item>
+        <item>Igurubi</item>
+        <item>Isakamaliwa</item>
+        <item>Itumba</item>
+        <item>Itunduru</item>
+        <item>Kining\'inila</item>
+        <item>Kinungu</item>
+        <item>Mbutu</item>
+        <item>Mwamashiga</item>
+        <item>Mwamashimba</item>
+        <item>Mwashiku</item>
+        <item>Mwisi</item>
+        <item>Nanga</item>
+        <item>Ndembezi</item>
+        <item>Ngulu</item>
+        <item>Nguvumoja</item>
+        <item>Nkinga</item>
+        <item>Ntobo</item>
+        <item>Nyandekwa</item>
+        <item>Simbo</item>
+        <item>Sungwizi</item>
+        <item>Ziba</item>
+    </string-array>
+
+    <string-array name="kaliua_wards">
+        <item>Ichemba</item>
+        <item>Igagala</item>
+        <item>Igombe Mkulu</item>
+        <item>Igwisi</item>
+        <item>Kaliua</item>
+        <item>Kamsekwa</item>
+        <item>Kanindo</item>
+        <item>Kanoge</item>
+        <item>Kashishi</item>
+        <item>Kazaroho</item>
+        <item>Milambo</item>
+        <item>Mwongozo</item>
+        <item>Sasu</item>
+        <item>Seleli</item>
+        <item>Silambo</item>
+        <item>Ugunga</item>
+        <item>Ukumbi Siganga</item>
+        <item>Ushokola</item>
+        <item>Usinge</item>
+        <item>Uyowa</item>
+        <item>Zugimlole</item>
+    </string-array>
+
+    <string-array name="nzega_wards">
+        <item>Budushi</item>
+        <item>Bukene</item>
+        <item>Igusule</item>
+        <item>Ijanija</item>
+        <item>Ikindwa</item>
+        <item>Isagenhe</item>
+        <item>Isanzu</item>
+        <item>Itilo</item>
+        <item>Itobo</item>
+        <item>Kahamanhalanga</item>
+        <item>Karitu</item>
+        <item>Kasela</item>
+        <item>Lusu</item>
+        <item>Magengati</item>
+        <item>Mambali</item>
+        <item>Mbogwe</item>
+        <item>Miguwa</item>
+        <item>Milambo Itobo</item>
+        <item>Mizibaziba</item>
+        <item>Mogwa</item>
+        <item>Muhugi</item>
+        <item>Mwakashanhala</item>
+        <item>Mwamala</item>
+        <item>Mwangoye</item>
+        <item>Nata</item>
+        <item>Ndala</item>
+        <item>Nkiniziwa</item>
+        <item>Nzega Mjini</item>
+        <item>Nzegandogo</item>
+        <item>Puge</item>
+        <item>Semembela</item>
+        <item>Shigamba</item>
+        <item>Sigili</item>
+        <item>Tongi</item>
+        <item>Uduka</item>
+        <item>Utwigu</item>
+        <item>Wela</item>
+    </string-array>
+
+    <string-array name="sikonge_wards">
+        <item>Chabutwa</item>
+        <item>Igigwa</item>
+        <item>Ipole</item>
+        <item>Kaloleli</item>
+        <item>Kiloli</item>
+        <item>Kipanga</item>
+        <item>Kipili</item>
+        <item>Kisanga</item>
+        <item>Kitunda</item>
+        <item>Misheni</item>
+        <item>Mole</item>
+        <item>Mpombwe</item>
+        <item>Ngoywa</item>
+        <item>Pangale</item>
+        <item>Sikonge</item>
+        <item>Tutuo</item>
+        <item>Usunga</item>
+    </string-array>
+
+    <string-array name="tabora_urban_wards">
+        <item>Chemchem</item>
+        <item>Cheyo</item>
+        <item>Gongoni</item>
+        <item>Ifucha</item>
+        <item>Ikomwa</item>
+        <item>Ipuli</item>
+        <item>Isevya</item>
+        <item>Itetemia</item>
+        <item>Itonjanda</item>
+        <item>Kabila</item>
+        <item>Kakola</item>
+        <item>Kalunde</item>
+        <item>Kanyenye</item>
+        <item>Kiloleni</item>
+        <item>Kitete</item>
+        <item>Malolo</item>
+        <item>Mbugani</item>
+        <item>Misha</item>
+        <item>Mtendeni</item>
+        <item>Ndevelwa</item>
+        <item>Ng\'ambo</item>
+        <item>Ntalikwa</item>
+        <item>Tambukareli</item>
+        <item>Tumbi</item>
+        <item>Uyui</item>
+    </string-array>
+
+    <string-array name="urambo_wards">
+        <item>Imalamakoye</item>
+        <item>Kapilula</item>
+        <item>Kasisi</item>
+        <item>Kiloleni</item>
+        <item>Muungano</item>
+        <item>Nsenda</item>
+        <item>Songambele</item>
+        <item>Ugalla</item>
+        <item>Ukondamoyo</item>
+        <item>Urambo</item>
+        <item>Usisya</item>
+        <item>Ussoke</item>
+        <item>Utundu</item>
+        <item>Uyogo</item>
+        <item>Uyumbu</item>
+        <item>Vumilia</item>
+    </string-array>
+
+    <string-array name="uyui_wards">
+        <item>Bukumbi</item>
+        <item>Goweko</item>
+        <item>Ibelamilundi</item>
+        <item>Ibiri</item>
+        <item>Igalula</item>
+        <item>Ikongolo</item>
+        <item>Ilolanguru</item>
+        <item>Isikizya</item>
+        <item>Kigwa</item>
+        <item>Kizengi</item>
+        <item>Loya</item>
+        <item>Lutende</item>
+        <item>Mabama</item>
+        <item>Magiri</item>
+        <item>Miswaki</item>
+        <item>Miyenze</item>
+        <item>Ndono</item>
+        <item>Nsimbo</item>
+        <item>Nsololo</item>
+        <item>Shitage</item>
+        <item>Tura</item>
+        <item>Ufuluma</item>
+        <item>Upuge</item>
+        <item>Usagari</item>
+    </string-array>
+
+    // Tanga
+    <string-array name="handeni_wards">
+        <item>Kabuku</item>
+        <item>Kabuku ndani</item>
+        <item>Kang\'ata</item>
+        <item>Kiva</item>
+        <item>Komkonga</item>
+        <item>Kwachaga</item>
+        <item>Kwaluguru</item>
+        <item>Kwamatuku</item>
+        <item>Kwamgwe</item>
+        <item>Kwamkonje</item>
+        <item>Kwamsisi</item>
+        <item>Kwasunga</item>
+        <item>Kwedizinga</item>
+        <item>Mazingara</item>
+        <item>Mgambo</item>
+        <item>Misima</item>
+        <item>Mkata</item>
+        <item>Ndolwa</item>
+        <item>Segera</item>
+        <item>Sindeni</item>
+    </string-array>
+
+    <string-array name="handeni_township_authority">
+        <item>Chanika</item>
+        <item>Kideleko</item>
+        <item>Konje</item>
+        <item>Kwamagome</item>
+        <item>Kwediyamba</item>
+        <item>Kwenjugo</item>
+        <item>Mabanda</item>
+        <item>Malezi</item>
+        <item>Mdoe</item>
+        <item>Mlimani</item>
+        <item>Msasa</item>
+        <item>Vibaoni</item>
+    </string-array>
+
+    <string-array name="kilindi_wards">
+        <item>Jaila</item>
+        <item>Kibirashi</item>
+        <item>Kikunde</item>
+        <item>Kilindi</item>
+        <item>Kilwa</item>
+        <item>Kimbe</item>
+        <item>Kisangasa</item>
+        <item>Kwediboma</item>
+        <item>Kwekivu</item>
+        <item>Lwande</item>
+        <item>Mabalanga</item>
+        <item>Masagalu</item>
+        <item>Mkindi</item>
+        <item>Msanja</item>
+        <item>Mvungwe</item>
+        <item>Negero</item>
+        <item>Pagwi</item>
+        <item>Saunyi</item>
+        <item>Songe</item>
+        <item>Tunguli</item>
+    </string-array>
+
+    <string-array name="korogwe_wards">
+        <item>Bungu</item>
+        <item>Chekelei</item>
+        <item>Dindira</item>
+        <item>Kerenge</item>
+        <item>Kizara</item>
+        <item>Kwagunda</item>
+        <item>Kwashemshi</item>
+        <item>Lutindi</item>
+        <item>Magamba Kwalukonge</item>
+        <item>Magoma</item>
+        <item>Makuyuni</item>
+        <item>Mashewa</item>
+        <item>Mazinde</item>
+        <item>Mkalamo</item>
+        <item>Mkomazi</item>
+        <item>Mnyuzi</item>
+        <item>Mombo</item>
+        <item>Mpale</item>
+        <item>Mswaha</item>
+        <item>Vugiri</item>
+    </string-array>
+
+    <string-array name="korogwe_township_authority">
+        <item>Kwamndolwa</item>
+        <item>Magunga</item>
+        <item>Manundu</item>
+        <item>Mtonga</item>
+        <item>Ngombezi</item>
+        <item>Old Korogwe</item>
+    </string-array>
+
+    <string-array name="lushoto_wards">
+        <item>Baga</item>
+        <item>Bumbuli</item>
+        <item>Dule B</item>
+        <item>Dule M</item>
+        <item>Funta</item>
+        <item>Gare</item>
+        <item>Hemtoye</item>
+        <item>Kilole</item>
+        <item>Kwai</item>
+        <item>Kwekanga</item>
+        <item>Kwemashai</item>
+        <item>Kwemshasha</item>
+        <item>Lukozi</item>
+        <item>Lunguza</item>
+        <item>Lushoto</item>
+        <item>Maheza ngulu</item>
+        <item>Makanya</item>
+        <item>Malibwi</item>
+        <item>Malindi</item>
+        <item>Mamba</item>
+        <item>Manolo</item>
+        <item>Mayo</item>
+        <item>Mbaramo</item>
+        <item>Mbuzii</item>
+        <item>Mgwashi</item>
+        <item>Milingano</item>
+        <item>Mlalo</item>
+        <item>Mlola</item>
+        <item>Mnazi</item>
+        <item>Mng\'aro</item>
+        <item>Mtae</item>
+        <item>Mwangoi</item>
+        <item>Ngulwi</item>
+        <item>Ngwelo</item>
+        <item>Nkongoi</item>
+        <item>Rangwi</item>
+        <item>Shume</item>
+        <item>Soni</item>
+        <item>Sunga</item>
+        <item>Tamota</item>
+        <item>Ubiri</item>
+        <item>Usambara</item>
+        <item>Vuga</item>
+    </string-array>
+
+    <string-array name="mkinga_wards">
+        <item>Boma</item>
+        <item>Bosha</item>
+        <item>Bwiti</item>
+        <item>Daluni</item>
+        <item>Doda</item>
+        <item>Duga</item>
+        <item>Gombero</item>
+        <item>Kigongoi</item>
+        <item>Kwale</item>
+        <item>Manza</item>
+        <item>Mapatano</item>
+        <item>Maramba</item>
+        <item>Mayomboni</item>
+        <item>Mhinduro</item>
+        <item>Mkinga</item>
+        <item>Mnyenzani</item>
+        <item>Moa</item>
+        <item>Mtimbwani</item>
+        <item>Mwakijembe</item>
+        <item>Parungu Kasera</item>
+        <item>Sigaya</item>
+    </string-array>
+
+    <string-array name="muheza_wards">
+        <item>Amani</item>
+        <item>Bwembwera</item>
+        <item>Genge</item>
+        <item>Kicheba</item>
+        <item>Kigombe</item>
+        <item>Kilulu</item>
+        <item>Kisiwani</item>
+        <item>Kwafungo</item>
+        <item>Kwakifua</item>
+        <item>Kwemkabala</item>
+        <item>Lusanga</item>
+        <item>Magila</item>
+        <item>Magoroto</item>
+        <item>Majengo</item>
+        <item>Masuguru</item>
+        <item>Mbaramo</item>
+        <item>Mbomole</item>
+        <item>Mhamba</item>
+        <item>Misalai</item>
+        <item>Misozwe</item>
+        <item>Mkuzi</item>
+        <item>Mlingano</item>
+        <item>Mpapayu</item>
+        <item>Mtindiro</item>
+        <item>Ngomeni</item>
+        <item>Nkumba</item>
+        <item>Pande Darajani</item>
+        <item>Potwe</item>
+        <item>Songa</item>
+        <item>Tanganyika</item>
+        <item>Tingeni</item>
+        <item>Tongwe</item>
+        <item>Zirai</item>
+    </string-array>
+
+    <string-array name="pangani_wards">
+        <item>Bushiri</item>
+        <item>Bweni</item>
+        <item>Kimang\'a</item>
+        <item>Kipumbwi</item>
+        <item>Madanga</item>
+        <item>Mikunguni</item>
+        <item>Mkalamo</item>
+        <item>Mkwaja</item>
+        <item>Mwera</item>
+        <item>Pangani Magharibi</item>
+        <item>Pangani Mashariki</item>
+        <item>Tungamaa</item>
+        <item>Ubangaa</item>
+    </string-array>
+
+    <string-array name="tanga_wards">
+        <item>Central</item>
+        <item>Chongoleani</item>
+        <item>Chumbageni</item>
+        <item>Duga</item>
+        <item>Kiomoni</item>
+        <item>Kirare</item>
+        <item>Mabawa</item>
+        <item>Mabokweni</item>
+        <item>Majengo</item>
+        <item>Makorora</item>
+        <item>Marungu</item>
+        <item>Maweni</item>
+        <item>Msambweni</item>
+        <item>Mwanzange</item>
+        <item>Mzingani</item>
+        <item>Mzizima</item>
+        <item>Ngamiani Kaskazini</item>
+        <item>Ngamiani Kati</item>
+        <item>Ngamiani Kusini</item>
+        <item>Nguvumali</item>
+        <item>Pongwe</item>
+        <item>Tangasisi</item>
+        <item>Tongoni</item>
+        <item>Usagara</item>
+    </string-array>
+
+    // Unguja Kaskazini
+    <string-array name="kaskazini_a_wards">
+        <item>Chaani</item>
+        <item>Gamba</item>
+        <item>Kidoti</item>
+        <item>Kinyasini</item>
+        <item>Kivunge</item>
+        <item>Matemwe</item>
+        <item>Mkokotoni</item>
+        <item>Mkwajuni</item>
+        <item>Muwange</item>
+        <item>Nungwi</item>
+        <item>Pwani Mchangani</item>
+    </string-array>
+
+    <string-array name="kaskazini_b_wards">
+        <item>Fujoni</item>
+        <item>Kitope</item>
+        <item>Mahonda</item>
+        <item>Makoba</item>
+        <item>Mangapwani</item>
+        <item>Mbiji</item>
+        <item>Mgambo</item>
+        <item>Mtambile</item>
+        <item>Muanda</item>
+        <item>Upenja</item>
+    </string-array>
+
+    // Pemba Kaskazini
+    <string-array name="micheweni_wards">
+        <item>Kinowe</item>
+        <item>Kiuyu Maziwang\'ombe</item>
+        <item>Konde</item>
+        <item>Mgogoni</item>
+        <item>Micheweni</item>
+        <item>Msuka</item>
+        <item>Shumba Viamboni</item>
+        <item>Tumbe</item>
+        <item>Wingwi Mapofu</item>
+        <item>Wingwi Njuguni</item>
+    </string-array>
+
+    <string-array name="wete_wards">
+        <item>Bopwe</item>
+        <item>Fundo</item>
+        <item>Gando</item>
+        <item>Jadida</item>
+        <item>Kangagani</item>
+        <item>Kipangani</item>
+        <item>Kisiwani</item>
+        <item>Kizimbani</item>
+        <item>Kojani</item>
+        <item>Limbani</item>
+        <item>Mchanga Mdogo</item>
+        <item>Mtambwe</item>
+        <item>Ole</item>
+        <item>Pandani</item>
+        <item>Selemu</item>
+        <item>Shengejuu</item>
+        <item>Utaani</item>
+    </string-array>
+</resources>

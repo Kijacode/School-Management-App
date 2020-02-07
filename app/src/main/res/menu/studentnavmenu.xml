@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/writing"
+        android:title="Add Student" />
+    <item
+        android:id="@+id/navigation_sms"
+        android:icon="@drawable/bag"
+        android:title="Update Student" />
+
+</menu>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:adjustViewBounds="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/activity_main"
+    android:background="@color/colorAccent"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:src="@drawable/cap"
+        android:alpha="9 "
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/form"
+
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bag"
+
+            />
+        <!--    EditText myEditText = (EditText)findViewById(R.id.myEditText);-->
+        <!--    myEditText.setTextColor(Color.RED);-->
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="User Name"
+            android:inputType="text"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/form"
+        android:layout_marginTop="20dp"
+
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/bag2"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:maxHeight="20dp"
+            android:maxWidth="22220dp"
+
+
+            />
+
+        <EditText
+            android:id="@+id/passord"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Password"
+            android:textColorHint="@color/colorWhite"
+            android:inputType="textPassword"
+            android:textColor="@color/colorWhite"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="109dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bottom"
+           android:text="Login"
+            android:textColor="@color/colorAccent"
+           android:onClick="login2"
+            />
+
+
+</LinearLayout>

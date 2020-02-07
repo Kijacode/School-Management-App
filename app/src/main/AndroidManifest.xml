@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shuleapp">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".StudentLogin"
+            android:label="@string/title_activity_studentadm"></activity>
+        <activity android:name=".courseadmin"
+            />
+        <activity android:name=".StaffActivity" />
+        <activity android:name=".MainActivity"/>
+        <activity android:name=".Login"/>
+        <activity android:name=".Adminpanel" />
+        <activity android:name=".Analytics"/>
+        <activity android:name=".SplashScreen">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <provider
+            android:authorities="com.example.shuleapp.StudentProvider"
+            android:name=".StudentProvider"
+            android:exported="false"
+
+            />
+
+        <provider
+            android:authorities="com.example.shuleapp.CourseProvider"
+            android:name=".CourseProvider"
+            android:exported="false"
+            />
+
+        <provider
+            android:authorities="com.example.shuleapp.StaffProvider"
+            android:name=".StaffProvider"/>
+    </application>
+
+</manifest>
