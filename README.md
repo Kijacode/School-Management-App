@@ -12,6 +12,8 @@ This Application(School App) is for school management from both students,staffs 
 ## Technologies
 1.Database(ContentProvider/Sqlite)
 2.Android Java
+3.Stetho (Database interfce)
+4.Password Encryption using SHA-1
 
 ## Demo
 ![alt text](https://github.com/Kijacode/School-Management-App/blob/master/images/Screenshot_2020-02-07-21-57-38%20(1).png)
